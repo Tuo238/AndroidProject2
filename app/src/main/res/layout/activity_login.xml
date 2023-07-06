@@ -4,8 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".Login"
-    android:background="@drawable/logo">
+    android:background="@drawable/z1"
+    tools:context=".Login">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -25,8 +25,11 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:ems="15"
-            android:hint="Tên đăng nhập"
-            android:textSize="20dp" />
+            android:hint="Email"
+            android:textSize="20dp"
+            android:padding="20px"
+            android:background="@drawable/text"
+            />
 
         <EditText
             android:layout_width="wrap_content"
@@ -34,6 +37,8 @@
             android:layout_marginBottom="10dp"
             android:ems="15"
             android:hint="Password"
+            android:background="@drawable/text"
+            android:padding="20px"
             android:inputType="textPassword"
             android:textSize="20dp" />
 
@@ -43,25 +48,26 @@
             android:layout_gravity="right"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
-            android:text="Quên mật khẩu?"
-            android:textColor="#000"
+            android:text="Sign Up?"
+            android:textColor="#009ce0"
             android:textSize="15dp" />
 
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:background="@color/cardview_shadow_end_color"
+            android:background="@drawable/btn"
             android:text="Đăng nhập"
-            android:textColor="#CCFFCC" />
+            android:textColor="#FFFF"
+            />
 
-        <Button
-            android:layout_width="150dp"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="10dp"
-            android:background="@color/cardview_shadow_end_color"
-            android:text="Đăng ký"
-            android:textColor="#CCFFCC" />
+        <!--        <Button-->
+        <!--            android:layout_width="150dp"-->
+        <!--            android:layout_height="wrap_content"-->
+        <!--            android:layout_marginBottom="10dp"-->
+        <!--            android:background=""-->
+        <!--            android:text="Đăng ký"-->
+        <!--            android:textColor="#fa28ff" />-->
     </LinearLayout>
 
 </RelativeLayout>
