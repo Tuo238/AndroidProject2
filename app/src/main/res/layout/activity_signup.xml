@@ -25,10 +25,12 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
+            android:id="@+id/siginup_email"
             android:ems="15"
             android:padding="20px"
             android:hint="Email"
             android:textSize="20dp"
+            android:textColor="#000000"
             android:background="@drawable/text"
             />
 
@@ -39,7 +41,9 @@
             android:ems="15"
             android:hint="Password"
             android:padding="20px"
+            android:textColor="#000000"
 
+            android:id="@+id/siginup_password1"
             android:background="@drawable/text"
             android:inputType="textPassword"
             android:textSize="20dp" />
@@ -49,9 +53,12 @@
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
             android:ems="15"
+            android:id="@+id/siginup_password2"
             android:hint="Confim Password"
             android:textSize="20dp"
             android:padding="20px"
+            android:textColor="#000000"
+
             android:inputType="textPassword"
             android:background="@drawable/text"
             />
@@ -64,24 +71,18 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
             android:text="Login?"
+            android:id="@+id/LoginText"
             android:textColor="#009ce0"
             android:textSize="15dp" />
 
-        <!--        <Button-->
-        <!--            android:layout_width="150dp"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_marginBottom="10dp"-->
-        <!--            android:background=""-->
-        <!--            android:text="Đăng nhập"-->
-        <!--            android:textColor="#fa28ff" />-->
-
         <Button
+            android:id="@+id/signup_button"
             android:layout_width="150dp"
             android:layout_height="wrap_content"
             android:layout_marginBottom="15dp"
             android:background="@drawable/btn"
             android:text="Đăng ký"
-            android:textColor="#FFF" />
+            android:textColor="#FFFFFF" />
     </LinearLayout>
 
 </RelativeLayout>
