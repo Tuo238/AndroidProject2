@@ -21,36 +21,35 @@
             android:src="@drawable/images" />
 
         <EditText
+            android:id="@+id/login_email"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/login_email"
             android:layout_marginBottom="10dp"
+            android:background="@drawable/text"
             android:ems="15"
             android:hint="Email"
-            android:textSize="20dp"
             android:padding="20px"
             android:textColor="#000000"
-            android:background="@drawable/text"
-            />
+            android:textSize="20dp" />
 
         <EditText
+            android:id="@+id/login_password"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginBottom="10dp"
-            android:id="@+id/login_password"
+            android:background="@drawable/text"
             android:ems="15"
             android:hint="Password"
-            android:background="@drawable/text"
-            android:padding="20px"
-            android:textColor="#000000"
-
             android:inputType="textPassword"
+            android:padding="20px"
+
+            android:textColor="#000000"
             android:textSize="20dp" />
 
         <TextView
+            android:id="@+id/SiginUpText"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:id="@+id/SiginUpText"
             android:layout_gravity="right"
             android:layout_marginRight="20dp"
             android:layout_marginBottom="10dp"
@@ -65,8 +64,15 @@
             android:layout_marginBottom="10dp"
             android:background="@drawable/btn"
             android:text="Đăng nhập"
-            android:textColor="#FFFFFF"
-            />
+            android:textColor="#FFFFFF" />
+
+        <Button
+            android:id="@+id/googleAuth"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn"
+            android:text="Sign In Google" />
 
         <!--        <Button-->
         <!--            android:layout_width="150dp"-->
