@@ -8,10 +8,11 @@
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
 
+    <uses-permission android:name="android.permission.INTERNET" />
+
     <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
     <!-- <uses-sdk android:minSdkVersion="14" /> -->
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-    <uses-permission android:name="android.permission.INTERNET" />
 
     <permission
         android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -36,13 +37,13 @@
             android:name="com.example.projectandroid.Profile"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.Login"
+            android:name="com.example.projectandroid.Signup"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.MainActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.Signup"
+            android:name="com.example.projectandroid.Login"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -52,7 +53,7 @@
         </activity>
         <activity
             android:name="com.example.projectandroid.Firebase"
-            android:exported="true" />
+            android:exported="false" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -63,6 +64,9 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
@@ -103,9 +107,19 @@
             </intent-filter>
         </activity>
         <activity
-            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+            android:excludeFromRecents="true"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+        <!--
+            Service handling Google Sign-In user revocation. For apps that do not integrate with
+            Google Sign-In, this service will never be started.
+        -->
+        <service
+            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+            android:exported="true"
+            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+            android:visibleToInstantApps="true" />
 
         <provider
             android:name="com.google.firebase.provider.FirebaseInitProvider"
@@ -113,6 +127,11 @@
             android:directBootAware="true"
             android:exported="false"
             android:initOrder="100" />
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
 
         <meta-data
             android:name="com.google.android.gms.version"
