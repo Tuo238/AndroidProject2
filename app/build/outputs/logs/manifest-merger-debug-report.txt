@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] /Users/trong/.gradle/caches/transforms-3/f154a87f221510618df14365471ac355/transformed/ImageSlideshow-0.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/trong/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/trong/.gradle/caches/transforms-3/ad65d7477bfa4f068607a04927772a9d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -67,27 +67,27 @@ MERGED from [com.squareup.picasso:picasso:2.71828] /Users/trong/.gradle/caches/t
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/trong/.gradle/caches/transforms-3/3a9e8d005c714fb69ca52f4385cb9346/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/trong/.gradle/caches/transforms-3/5a126450b6783edb019063a75d6da05b/transformed/grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/trong/.gradle/caches/transforms-3/93f8c4cde4237f87b822a187b8bf709f/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
-INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
+INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
+INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
 	package
 		INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-40:12
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:1-42:12
 		INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:2:11-69
 uses-permission#android.permission.INTERNET
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:4:1-62
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:5:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/trong/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/trong/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/trong/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:25:5-67
@@ -97,9 +97,9 @@ MERGED from [com.google.firebase:firebase-database:20.2.2] /Users/trong/.gradle/
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/trong/.gradle/caches/transforms-3/3341526db8edddad71c6f3f63925f4d4/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/trong/.gradle/caches/transforms-3/3341526db8edddad71c6f3f63925f4d4/transformed/recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:4:18-60
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:5:5-38:19
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:7:5-40:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/trong/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/trong/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/trong/.gradle/caches/transforms-3/ad65d7477bfa4f068607a04927772a9d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -143,63 +143,69 @@ MERGED from [com.squareup.picasso:picasso:2.71828] /Users/trong/.gradle/caches/t
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/trong/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:supportsRtl
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:12:9-35
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:14:9-35
 	android:label
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:10:9-41
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:12:9-41
 	android:fullBackupContent
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:8:9-54
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:10:9-54
 	android:roundIcon
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:11:9-54
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:13:9-54
 	tools:targetApi
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:14:9-29
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:16:9-29
 	android:icon
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:9:9-43
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:11:9-43
 	android:allowBackup
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:6:9-35
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:8:9-35
 	android:theme
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:13:9-52
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:15:9-52
 	android:dataExtractionRules
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:7:9-65
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:9:9-65
 activity#com.example.projectandroid.Profile
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:16:9-18:40
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:17:9-19:40
 	android:exported
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:18:13-37
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:17:13-36
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:18:13-36
 activity#com.example.projectandroid.Signup
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:19:9-21:40
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:20:9-22:40
 	android:exported
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:21:13-37
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:20:13-35
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:21:13-35
 activity#com.example.projectandroid.MainActivity
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:22:9-24:40
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:23:9-25:40
 	android:exported
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:24:13-37
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:25:13-37
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:23:13-41
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:24:13-41
+activity#com.example.projectandroid.ForgotPasswordActivity
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:26:9-27:39
+	android:exported
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:26:19-57
 activity#com.example.projectandroid.Login
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:25:9-33:20
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:28:9-36:20
 	android:exported
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:27:13-36
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:30:13-36
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:26:13-34
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:29:13-34
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:28:13-32:29
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:31:13-35:29
 action#android.intent.action.MAIN
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:29:17-69
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:32:17-69
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:29:25-66
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:32:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:31:17-77
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:34:17-77
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:31:27-74
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:34:27-74
 activity#com.example.projectandroid.Firebase
-ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:34:9-36:40
+ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:37:9-39:40
 	android:exported
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:36:13-37
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:39:13-37
 	android:name
-		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:35:13-37
+		ADDED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml:38:13-37
 uses-sdk
 INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/trong/Library/Mobile Documents/com~apple~CloudDocs/Mobile/app/src/main/AndroidManifest.xml
