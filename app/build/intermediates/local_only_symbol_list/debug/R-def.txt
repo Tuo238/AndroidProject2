@@ -2,8 +2,10 @@ R_DEF: Internal format may change without notice
 local
 color black
 color white
+color zz1
 drawable american_food
 drawable baseline_arrow_back_24
+drawable baseline_autorenew_24
 drawable baseline_edit_24
 drawable baseline_email_24
 drawable baseline_lock_24
@@ -30,6 +32,11 @@ drawable z1
 id Liner_ll
 id LoginText
 id SiginUpText
+id btnForgotPasswordBack
+id btnReset
+id edtForgotPasswordEmail
+id forgetPasswordProgressbar
+id googleAuth
 id imageButton2
 id imageButton3
 id imgSlider
@@ -42,7 +49,15 @@ id siginup_password2
 id signup_button
 id textView
 id textView2
+id textView3
+id textView4
+id txtLayoutEmail
+id txtforgotPassword
+id view
+id view2
+id viewExpYear
 layout activity_firebase
+layout activity_forgot_password1
 layout activity_login
 layout activity_main
 layout activity_profile

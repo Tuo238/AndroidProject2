@@ -15,12 +15,14 @@ import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.firebase.auth.AuthResult;
 import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class Signup extends AppCompatActivity {
     FirebaseAuth auth;
     EditText siginup_email, siginup_password1, siginup_password2;
     Button signup_button;
     TextView LoginText;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -39,7 +41,7 @@ public class Signup extends AppCompatActivity {
         LoginText=(TextView) findViewById(R.id.LoginText);
     }
 
-    private void addControls(){
+    private void addControls() {
         signup_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -66,31 +68,36 @@ public class Signup extends AppCompatActivity {
                     return;
                 }
 
+                // Tạo tài khoản mới
+                auth.createUserWithEmailAndPassword(user, pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
+                    @Override
+                    public void onComplete(@NonNull Task<AuthResult> task) {
+                        if (task.isSuccessful()) {
+                            // Tạo tài khoản thành công
+                            FirebaseUser user = auth.getCurrentUser();
 
-                if (pass.length() < 8 || pass.length() > 16) {
-                    siginup_password1.setError("Password must be between 8 and 16 characters");
-                    return;
-                }
-
-                if (!pass.matches("^(?=.*[A-Z])(?=.*\\d)(?=.*[@#$%^&+.=]).*$")) {
-                    siginup_password1.setError("Password must contain at least one uppercase letter, one digit, and one special character.");
-                    return;
-                }
-
-                else {
-                    auth.createUserWithEmailAndPassword(user,pass).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                        @Override
-                        public void onComplete(@NonNull Task<AuthResult> task) {
-                            if (task.isSuccessful()){
-                                Toast.makeText(Signup.this,"SignUp Successful",Toast.LENGTH_SHORT).show();
-                                startActivity(new Intent(Signup.this,Login.class));
-                            } else {
-                                Toast.makeText(Signup.this,"SignUp Failed "+task.getException().getMessage(),Toast.LENGTH_SHORT).show();
-
+                            // Gửi email xác thực
+                            if (user != null) {
+                                user.sendEmailVerification().addOnCompleteListener(new OnCompleteListener<Void>() {
+                                    @Override
+                                    public void onComplete(@NonNull Task<Void> task) {
+                                        if (task.isSuccessful()) {
+                                            // Gửi email xác thực thành công
+                                            Toast.makeText(Signup.this, "Email verification sent. Please verify your email before logging in.", Toast.LENGTH_LONG).show();
+                                        } else {
+                                            // Gửi email xác thực thất bại
+                                            Toast.makeText(Signup.this, "Failed to send verification email", Toast.LENGTH_SHORT).show();
+                                        }
+                                    }
+                                });
                             }
+                        } else {
+                            // Tạo tài khoản thất bại
+                            Toast.makeText(Signup.this, "SignUp Failed " + task.getException().getMessage(), Toast.LENGTH_SHORT).show();
                         }
-                    });
-                }
+                    }
+                });
+
             }
         });
 
