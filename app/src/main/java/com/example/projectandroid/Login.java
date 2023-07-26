@@ -37,7 +37,7 @@ public class Login extends AppCompatActivity {
     FirebaseAuth auth;
     EditText login_email, login_password;
     Button login_button, googleAuth ;
-    TextView SiginUpText;
+    TextView SiginUpText, txtforgotPassword;
 
     GoogleSignInClient googleSignInClient;
 
@@ -61,6 +61,7 @@ public class Login extends AppCompatActivity {
         login_button=(Button) findViewById(R.id.login_button);
         SiginUpText=(TextView) findViewById(R.id.SiginUpText);
         googleAuth=(Button) findViewById(R.id.googleAuth);
+        txtforgotPassword=(TextView) findViewById(R.id.txtforgotPassword);
     }
 
     private void addControls(){
@@ -119,6 +120,13 @@ public class Login extends AppCompatActivity {
                 Intent intent = googleSignInClient.getSignInIntent();
                 startActivityForResult(intent,RC_SIGN_IN);
 
+            }
+        });
+
+        txtforgotPassword.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(Login.this,ForgotPasswordActivity.class));
             }
         });
 

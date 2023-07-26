@@ -1,178 +1,186 @@
 [
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_baseline_autorenew_24.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/baseline_autorenew_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/layout_activity_profile.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/layout/activity_profile.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_baseline_edit_24.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/baseline_edit_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_images.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/images.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_baseline_lock_24.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/baseline_lock_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_indian_food.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/indian_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_bill.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/bill.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_images.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/images.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_greenbckgroud.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/greenbckgroud.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_main.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/layout/activity_main.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/layout_activity_firebase.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/layout/activity_firebase.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_mexican_food.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/mexican_food.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_text.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/text.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/xml/data_extraction_rules.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_mexican_food.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/mexican_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_bill.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/bill.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_chinese_food.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/chinese_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_chinese_food.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/chinese_food.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_signup.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/layout/activity_signup.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_unknown1.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/unknown1.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_z1.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/z1.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_search_border.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/search_border.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/xml_data_extraction_rules.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/xml/data_extraction_rules.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_american_food.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/american_food.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_ic_launcher_background.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/ic_launcher_background.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_unknown1.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/unknown1.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_profile.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/layout/activity_profile.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/layout_activity_login.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/layout/activity_login.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_firebase.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/layout/activity_firebase.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/layout_activity_main.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/layout/activity_main.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_heart.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/heart.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_unknown.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/unknown.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/baseline_arrow_back_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_baseline_email_24.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/baseline_email_24.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_baseline_email_24.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/baseline_email_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_login.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/layout/activity_login.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_baseline_arrow_back_24.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/baseline_arrow_back_24.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-hdpi/ic_launcher.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/xml_backup_rules.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/xml/backup_rules.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_btn.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/btn.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_spanish_food.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/spanish_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_nen.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/nen.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/layout_activity_signup.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/layout/activity_signup.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable-v24/ic_launcher_foreground.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_spanish_food.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/spanish_food.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_thai_food.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/thai_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_text.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/text.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_logo.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/logo.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_greenbckgroud.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/greenbckgroud.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_baseline_edit_24.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/baseline_edit_24.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_z1.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/z1.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_search_border.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/search_border.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_logo.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/logo.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_baseline_person_24.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/baseline_person_24.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_unknown.png.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/unknown.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_american_food.jpg.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/american_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "com.example.projectandroid.app-main-36:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_thai_food.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/thai_food.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_heart.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/heart.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_baseline_person_24.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_baseline_lock_24.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/baseline_lock_24.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/xml_backup_rules.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/xml/backup_rules.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_btn.xml.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/btn.xml"
+        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_indian_food.jpg.flat",
+        "source": "com.example.projectandroid.app-main-37:/drawable/indian_food.jpg"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-34:/drawable_nen.png.flat",
-        "source": "com.example.projectandroid.app-main-36:/drawable/nen.png"
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_forgot_password1.xml.flat",
+        "source": "com.example.projectandroid.app-main-37:/layout/activity_forgot_password1.xml"
+    },
+    {
+        "merged": "com.example.projectandroid.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "com.example.projectandroid.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
     }
 ]

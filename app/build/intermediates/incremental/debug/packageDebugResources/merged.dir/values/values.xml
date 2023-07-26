@@ -2,6 +2,7 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
+    <color name="zz1">#DB1257</color>
     <string name="app_name">Project Android</string>
     <string name="default_web_client_id" translatable="false">646519190356-sbvq62p6q2vqkg4g9rumt2kd1j10mdah.apps.googleusercontent.com</string>
     <string name="gcm_defaultSenderId" translatable="false">646519190356</string>

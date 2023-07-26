@@ -43,6 +43,9 @@
             android:name="com.example.projectandroid.MainActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.projectandroid.ForgotPasswordActivity"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectandroid.Login"
             android:exported="true" >
             <intent-filter>
