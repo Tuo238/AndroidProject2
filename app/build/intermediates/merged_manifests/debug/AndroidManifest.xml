@@ -34,19 +34,28 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProjectAndroid" >
         <activity
+            android:name="com.example.projectandroid.Test2"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.TestActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.EditProfile"
+            android:exported="true" />
+        <activity
             android:name="com.example.projectandroid.Profile"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.Signup"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.MainActivity"
+            android:name="com.example.projectandroid.Login"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.Login"
+            android:name="com.example.projectandroid.MainActivity"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -66,12 +75,20 @@
                 android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
+
+        <provider
+            android:name="com.squareup.picasso.PicassoProvider"
+            android:authorities="com.example.projectandroid.com.squareup.picasso"
+            android:exported="false" />
 
         <activity
             android:name="com.google.firebase.auth.internal.GenericIdpActivity"
@@ -151,10 +168,6 @@
                 android:name="androidx.lifecycle.ProcessLifecycleInitializer"
                 android:value="androidx.startup" />
         </provider>
-        <provider
-            android:name="com.squareup.picasso.PicassoProvider"
-            android:authorities="com.example.projectandroid.com.squareup.picasso"
-            android:exported="false" />
     </application>
 
 </manifest>

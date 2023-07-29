@@ -63,6 +63,7 @@ animator mtrl_fab_hide_motion_spec
 animator mtrl_fab_show_motion_spec
 animator mtrl_fab_transformation_sheet_collapse_spec
 animator mtrl_fab_transformation_sheet_expand_spec
+animator selector
 attr SharedValue
 attr SharedValueId
 attr actionBarDivider
@@ -2478,6 +2479,7 @@ drawable baseline_edit_24
 drawable baseline_email_24
 drawable baseline_lock_24
 drawable baseline_person_24
+drawable baseline_save_alt_24
 drawable bill
 drawable btn
 drawable btn_checkbox_checked_mtrl
@@ -2595,9 +2597,15 @@ id ALT
 id BOTTOM_END
 id BOTTOM_START
 id CTRL
+id Email
+id FName
 id FUNCTION
+id Fname
+id LName
 id Liner_ll
+id Lname
 id LoginText
+id Logout
 id META
 id NO_DEBUG
 id SHIFT
@@ -2690,6 +2698,7 @@ id beginning
 id bestChoice
 id blocking
 id bottom
+id bottom_navigation
 id bounce
 id bounceBoth
 id bounceEnd
@@ -2712,6 +2721,7 @@ id center_vertical
 id chain
 id chain2
 id chains
+id changeProfile
 id checkbox
 id checked
 id chip
@@ -2798,6 +2808,7 @@ id floating
 id forever
 id forgetPasswordProgressbar
 id fragment_container_view_tag
+id frameFragment
 id frost
 id ghost_view
 id ghost_view_holder
@@ -2809,6 +2820,7 @@ id group_divider
 id grouping
 id groups
 id guideline
+id gvMain
 id header_title
 id hideable
 id home
@@ -2825,6 +2837,7 @@ id image
 id imageButton2
 id imageButton3
 id image_view
+id imgCategory
 id imgSlider
 id immediateStop
 id included
@@ -2957,6 +2970,7 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id save
 id save_non_transition_alpha
 id save_overlay_view
 id sawtooth
@@ -3036,6 +3050,8 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
+id test
+id test2
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
 id test_radiobutton_android_button_tint
@@ -3051,6 +3067,7 @@ id textView
 id textView2
 id textView3
 id textView4
+id textView5
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3077,6 +3094,7 @@ id transition_position
 id transition_scene_layoutid_cache
 id transition_transform
 id triangle
+id tvCategory
 id txtLayoutEmail
 id txtforgotPassword
 id unchecked
@@ -3097,6 +3115,7 @@ id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id visible
 id visible_removing_fragment_view_tag
+id welcome
 id west
 id wide
 id withText
@@ -3193,12 +3212,15 @@ layout abc_search_dropdown_item_icons_2line
 layout abc_search_view
 layout abc_select_dialog_material
 layout abc_tooltip
+layout activity_edit_profile
 layout activity_firebase
 layout activity_forgot_password1
 layout activity_login
 layout activity_main
 layout activity_profile
 layout activity_signup
+layout activity_test
+layout activity_test2
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
 layout custom_dialog
@@ -3221,6 +3243,7 @@ layout image_slider
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
+layout main_category_layout
 layout material_chip_input_combo
 layout material_clock_display
 layout material_clock_display_divider
@@ -3290,6 +3313,7 @@ layout text_view_with_line_height_from_layout
 layout text_view_with_line_height_from_style
 layout text_view_with_theme_line_height
 layout text_view_without_line_height
+menu menu_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round
 plurals mtrl_badge_content_description
