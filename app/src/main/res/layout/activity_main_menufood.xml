@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".Main_menufood">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="Các món ăn gần bạn"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="30dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/roundcorner"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/filter_icon" />
+
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Spinner
+                    android:id="@+id/spinner_danhmuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:spinnerMode="dialog"
+                    android:layout_marginTop="20dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:text="Gần tôi"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:text="4.5 sao trở lên" />
+
+                <!--            <Button-->
+                <!--                android:id="@+id/button4"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginLeft="12dp"-->
+                <!--                android:backgroundTint="#E4E2E2"-->
+                <!--                android:textColor="@color/black"-->
+                <!--                android:text="Loại ẩm thực" />-->
+
+                <Button
+                    android:id="@+id/btnkhuyenmai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:text="Ưu đãi món ăn" />
+
+                <Button
+                    android:id="@+id/btnmocua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:text="Đang mở cửa" />
+            </LinearLayout>
+        </HorizontalScrollView >
+    </LinearLayout>
+<FrameLayout
+    android:id="@+id/fra_nav_giohang"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ListView
+        android:id="@+id/lstFood"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp" />
+</FrameLayout>
+
+</LinearLayout>
