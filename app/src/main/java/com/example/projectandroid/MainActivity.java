@@ -7,6 +7,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.GridView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.denzcoskun.imageslider.ImageSlider;
@@ -19,6 +20,9 @@ import com.google.firebase.firestore.DocumentReference;
 import com.google.firebase.firestore.DocumentSnapshot;
 import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.QuerySnapshot;
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
+
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -30,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     GridView gvMain;
     ArrayList<MainGridviewClass> mainGridviewClassArrayList;
     FirebaseFirestore db;
+    TextView tvUserName;
 
     //Navigation
     BottomNavigationView bottom_navigation;
@@ -51,6 +56,7 @@ public class MainActivity extends AppCompatActivity {
         //=========Xử lý GridView=======
 
         // below line is use to initialize our variables.
+        tvUserName =(TextView)findViewById(R.id.tvUserName);
         gvMain = findViewById(R.id.gvMain);
         mainGridviewClassArrayList = new ArrayList<>();
 
@@ -90,8 +96,19 @@ public class MainActivity extends AppCompatActivity {
                 return false;
             }
         });
-
         //==========================
+
+        FirebaseAuth firebaseAuth = FirebaseAuth.getInstance();
+        FirebaseUser currentUser = firebaseAuth.getCurrentUser();
+        if (currentUser != null) {
+            String username = currentUser.getDisplayName();
+            tvUserName.setText("Hello, " + username);
+        } else {
+            // If the user is not logged in, show a default message or handle it accordingly
+            tvUserName.setText("Hello, Guest");
+        }
+
+
     }
 
     private void loadDatainGridView() {

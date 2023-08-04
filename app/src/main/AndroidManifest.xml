@@ -15,6 +15,9 @@
         android:theme="@style/Theme.ProjectAndroid"
         tools:targetApi="31">
         <activity
+            android:name=".GiaoHang"
+            android:exported="false" />
+        <activity
             android:name=".Test2"
             android:exported="false" />
         <activity

@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
 MERGED from [com.github.denzcoskun:ImageSlideshow:0.1.0] /Users/tuobui/.gradle/caches/transforms-3/f154a87f221510618df14365471ac355/transformed/ImageSlideshow-0.1.0/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.material:material:1.5.0] /Users/tuobui/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tuobui/.gradle/caches/transforms-3/ad65d7477bfa4f068607a04927772a9d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:2:1-11:12
@@ -68,22 +68,22 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/tuobui/.g
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/tuobui/.gradle/caches/transforms-3/3a9e8d005c714fb69ca52f4385cb9346/transformed/protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/tuobui/.gradle/caches/transforms-3/5a126450b6783edb019063a75d6da05b/transformed/grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
 MERGED from [com.android.support:exifinterface:27.1.0] /Users/tuobui/.gradle/caches/transforms-3/93f8c4cde4237f87b822a187b8bf709f/transformed/exifinterface-27.1.0/AndroidManifest.xml:17:1-22:12
-INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
-INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
+INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
 	package
 		INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-52:12
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:1-55:12
 		INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:2:11-69
@@ -102,7 +102,7 @@ MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/tuobui/.gradl
 	android:name
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:5:22-64
 application
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:7:5-50:19
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:7:5-53:19
 MERGED from [com.google.android.material:material:1.5.0] /Users/tuobui/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.5.0] /Users/tuobui/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/AndroidManifest.xml:22:5-20
 MERGED from [androidx.constraintlayout:constraintlayout:2.1.4] /Users/tuobui/.gradle/caches/transforms-3/ad65d7477bfa4f068607a04927772a9d/transformed/constraintlayout-2.1.4/AndroidManifest.xml:9:5-20
@@ -165,70 +165,76 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/tuob
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:15:9-52
 	android:dataExtractionRules
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:9:9-65
-activity#com.example.projectandroid.Test2
+activity#com.example.projectandroid.GiaoHang
 ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:17:9-19:40
 	android:exported
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:19:13-37
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:18:13-34
-activity#com.example.projectandroid.TestActivity
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:18:13-37
+activity#com.example.projectandroid.Test2
 ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:20:9-22:40
 	android:exported
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:22:13-37
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:21:13-41
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:21:13-34
+activity#com.example.projectandroid.TestActivity
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:23:9-25:40
+	android:exported
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:25:13-37
+	android:name
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:24:13-41
 activity#com.example.projectandroid.EditProfile
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:23:9-25:39
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:26:9-28:39
 	android:exported
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:25:13-36
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:28:13-36
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:24:13-40
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:27:13-40
 activity#com.example.projectandroid.Profile
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:26:9-28:40
-	android:exported
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:28:13-37
-	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:27:13-36
-activity#com.example.projectandroid.Signup
 ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:29:9-31:40
 	android:exported
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:31:13-37
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:30:13-35
-activity#com.example.projectandroid.Login
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:30:13-36
+activity#com.example.projectandroid.Signup
 ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:32:9-34:40
 	android:exported
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:34:13-37
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:33:13-34
-activity#com.example.projectandroid.ForgotPasswordActivity
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:33:13-35
+activity#com.example.projectandroid.Login
 ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:35:9-37:40
 	android:exported
 		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:37:13-37
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:36:13-51
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:36:13-34
+activity#com.example.projectandroid.ForgotPasswordActivity
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:38:9-40:40
+	android:exported
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:40:13-37
+	android:name
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:39:13-51
 activity#com.example.projectandroid.MainActivity
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:38:9-46:20
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:41:9-49:20
 	android:exported
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:40:13-36
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:43:13-36
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:39:13-41
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:42:13-41
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:41:13-45:29
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:44:13-48:29
 action#android.intent.action.MAIN
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:42:17-69
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:45:17-69
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:42:25-66
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:45:25-66
 category#android.intent.category.LAUNCHER
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:44:17-77
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:47:17-77
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:44:27-74
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:47:27-74
 activity#com.example.projectandroid.Firebase
-ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:47:9-49:40
+ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:50:9-52:40
 	android:exported
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:49:13-37
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:52:13-37
 	android:name
-		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:48:13-37
+		ADDED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:51:13-37
 uses-sdk
 INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml

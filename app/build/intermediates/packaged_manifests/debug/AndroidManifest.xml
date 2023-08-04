@@ -34,6 +34,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProjectAndroid" >
         <activity
+            android:name="com.example.projectandroid.GiaoHang"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectandroid.Test2"
             android:exported="false" />
         <activity

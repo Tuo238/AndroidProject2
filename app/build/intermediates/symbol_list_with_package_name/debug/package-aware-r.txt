@@ -2475,11 +2475,15 @@ drawable avd_hide_password
 drawable avd_show_password
 drawable baseline_arrow_back_24
 drawable baseline_autorenew_24
+drawable baseline_discount_24
 drawable baseline_edit_24
 drawable baseline_email_24
+drawable baseline_home_24
 drawable baseline_lock_24
+drawable baseline_menu_book_24
 drawable baseline_person_24
 drawable baseline_save_alt_24
+drawable baseline_shopping_cart_24
 drawable bill
 drawable btn
 drawable btn_checkbox_checked_mtrl
@@ -2590,6 +2594,7 @@ drawable text
 drawable thai_food
 drawable tooltip_frame_dark
 drawable tooltip_frame_light
+drawable tracking
 drawable unknown
 drawable unknown1
 drawable z1
@@ -2786,6 +2791,7 @@ id easeIn
 id easeInOut
 id easeOut
 id east
+id editTextText
 id edit_query
 id edtForgotPasswordEmail
 id elastic
@@ -2834,8 +2840,11 @@ id ifRoom
 id ignore
 id ignoreRequest
 id image
+id imageButton
 id imageButton2
 id imageButton3
+id imageView
+id imageView2
 id image_view
 id imgCategory
 id imgSlider
@@ -2960,6 +2969,7 @@ id position
 id postLayout
 id progress_circular
 id progress_horizontal
+id promotion
 id radio
 id ratio
 id rectangles
@@ -3068,6 +3078,10 @@ id textView2
 id textView3
 id textView4
 id textView5
+id textView6
+id textView7
+id textView8
+id textView9
 id text_input_end_icon
 id text_input_error_icon
 id text_input_start_icon
@@ -3095,6 +3109,7 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvCategory
+id tvUserName
 id txtLayoutEmail
 id txtforgotPassword
 id unchecked
@@ -3215,6 +3230,7 @@ layout abc_tooltip
 layout activity_edit_profile
 layout activity_firebase
 layout activity_forgot_password1
+layout activity_giao_hang
 layout activity_login
 layout activity_main
 layout activity_profile
