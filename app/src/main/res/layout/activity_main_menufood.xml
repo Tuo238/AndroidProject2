@@ -51,7 +51,7 @@
             android:layout_marginRight="5dp"
             android:background="@drawable/roundcorner"
             android:layout_alignParentLeft="true"
-            android:src="@drawable/filter_icon" />
+             android:src="@drawable/filter_icon" />
 
         <HorizontalScrollView
             android:id="@+id/scroll"
