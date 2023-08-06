@@ -5,6 +5,7 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.util.Patterns;
 import android.view.View;
@@ -52,9 +53,31 @@ public class Login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
         auth=FirebaseAuth.getInstance();
         database=FirebaseDatabase.getInstance();
+
+        FirebaseUser currentUser = auth.getCurrentUser();
+        if (currentUser != null){
+            goToMainActivity();
+        }
+
         addEvents();
         addControls();
     }
+
+    private void goToMainActivity() {
+        Intent intent = new Intent(Login.this, MainActivity.class);
+        startActivity(intent);
+        finish();
+    }
+
+    private void saveUserToSharedPreferences(FirebaseUser user) {
+        SharedPreferences sharedPreferences = getSharedPreferences("UserData", MODE_PRIVATE);
+        SharedPreferences.Editor editor = sharedPreferences.edit();
+        editor.putString("userUid", user.getUid());
+        editor.putString("userName", user.getDisplayName());
+        editor.putString("userEmail", user.getEmail());
+        editor.apply();
+    }
+
     private void addEvents(){
         login_email= (EditText) findViewById(R.id.login_email);
         login_password=(EditText) findViewById(R.id.login_password);
