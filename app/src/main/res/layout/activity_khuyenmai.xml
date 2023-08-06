@@ -27,7 +27,7 @@
 
         <Button
             android:id="@+id/btn_NhapKM"
-            android:backgroundTint="@color/green"
+            android:backgroundTint="#8BC34A"
             android:textColor="@color/white"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

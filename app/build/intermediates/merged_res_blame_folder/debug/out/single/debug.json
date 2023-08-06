@@ -1,238 +1,382 @@
 [
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_person_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_person_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_khuyenmai.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_khuyenmai.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_unknown.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/unknown.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_btn_datgiaomon.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/btn_datgiaomon.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_main.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_main.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_save_alt_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_save_alt_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_logo.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/logo.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_heart.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/heart.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/xml_data_extraction_rules.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/xml/data_extraction_rules.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_person_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_person_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-mdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-mdpi/ic_launcher_round.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_plus.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/plus.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-hdpi_ic_launcher.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-hdpi/ic_launcher.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_search_border.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/search_border.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_nen.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/nen.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_thai_food.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/thai_food.jpg"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_ic_launcher_background.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/ic_launcher_background.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_american_food.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/american_food.jpg"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_home_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_home_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_home_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_home_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-xxxhdpi/ic_launcher.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_btn.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/btn.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_z1.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/z1.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_img.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/img.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_profile.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_profile.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_btn_count_food.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/btn_count_food.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_indian_food.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/indian_food.jpg"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_money_paymenthod2.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/money_paymenthod2.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_forgot_password1.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_forgot_password1.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-anydpi-v26/ic_launcher_round.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_heart.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/heart.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_layout_menthod.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/layout_menthod.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-xxxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-mdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_shopping_cart_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_shopping_cart_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_layout_khuyen_mai.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/layout_khuyen_mai.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable-v24_ic_launcher_foreground.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable-v24/ic_launcher_foreground.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/menu_menu_navigation.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/menu/menu_navigation.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_test.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_test.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-xhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-xxhdpi/ic_launcher_round.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_arrow_back_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_arrow_back_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_search_border.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/search_border.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-mdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_login.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_login.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_indian_food.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/indian_food.jpg"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_bill.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/bill.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_main_paymet.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_main_paymet.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_greenbckgroud.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/greenbckgroud.jpg"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_lock_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_lock_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-xhdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-xhdpi/ic_launcher_round.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_test.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_test.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_thai_food.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/thai_food.jpg"
+        "merged": "com.example.projectandroid.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "com.example.projectandroid.app-main-39:/layout/activity_main.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_main_category_layout.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/main_category_layout.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_ic_launcher_background.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/ic_launcher_background.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_lock_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_lock_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_edit_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_edit_24.xml"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-35:/drawable_tracking.png.flat",
-        "source": "com.example.projectandroid.app-main-37:/drawable/tracking.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/anim_slide_in_bottom.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/anim/slide_in_bottom.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-hdpi_ic_launcher_round.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-hdpi/ic_launcher_round.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_ggmap.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_ggmap.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_menu_book_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_menu_book_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_login.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_login.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-xxhdpi_ic_launcher.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-xxhdpi/ic_launcher.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_layout_item_drink.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/layout_item_drink.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/xml_backup_rules.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/xml/backup_rules.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_bill.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/bill.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_signup.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_signup.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_giao_hang.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_giao_hang.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_images.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/images.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_change_paymenthod.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/change_paymenthod.png"
     },
     {
-        "merged": "com.example.projectandroid.app-merged_res-35:/layout_activity_giao_hang.xml.flat",
-        "source": "com.example.projectandroid.app-main-37:/layout/activity_giao_hang.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_signup.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_signup.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-anydpi-v26/ic_launcher.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_shipper.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/shipper.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_edit_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_edit_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-xxxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_email_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_email_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/font_montserrat_medium.ttf.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/font/montserrat_medium.ttf"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_autorenew_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_autorenew_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_background_payment.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/background_payment.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_american_food.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/american_food.jpg"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_round_corner.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/round_corner.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_spanish_food.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/spanish_food.jpg"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_main_category_layout.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/main_category_layout.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_test2.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_test2.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_edit_profile.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_edit_profile.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_mexican_food.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/mexican_food.jpg"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_logo.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/logo.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_discount_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_discount_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_autorenew_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_autorenew_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_unknown1.png.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/unknown1.png"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-hdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_firebase.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_firebase.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-xxhdpi/ic_launcher.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_text.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/text.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_tracking.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/tracking.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_btn.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/btn.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-xhdpi/ic_launcher_round.webp"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-xhdpi_ic_launcher.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-xhdpi/ic_launcher.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_filter_icon.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/filter_icon.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_chinese_food.jpg.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/chinese_food.jpg"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_email_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_email_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_save_alt_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_save_alt_24.xml"
+        "merged": "com.example.projectandroid.app-merged_res-37:/menu_menu_navigation.xml.flat",
+        "source": "com.example.projectandroid.app-main-39:/menu/menu_navigation.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-anydpi-v26_ic_launcher_round.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-anydpi-v26/ic_launcher_round.xml"
+        "merged": "com.example.projectandroid.app-merged_res-37:/drawable_usericon.png.flat",
+        "source": "com.example.projectandroid.app-main-39:/drawable/usericon.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/mipmap-mdpi_ic_launcher.webp.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/mipmap-mdpi/ic_launcher.webp"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_greenbckgroud.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/greenbckgroud.jpg"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/layout_activity_edit_profile.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/layout/activity_edit_profile.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_main_menufood.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_main_menufood.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/drawable_baseline_arrow_back_24.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/drawable/baseline_arrow_back_24.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_shopping_cart_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_shopping_cart_24.xml"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/menu_menu_navigation.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/menu/menu_navigation.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_sale.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/sale.png"
     },
     {
-        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-35:/animator_selector.xml.flat",
-        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-37:/animator/selector.xml"
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-hdpi/ic_launcher.webp"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_main_menutopping.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_main_menutopping.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_border.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/border.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_nhap_km.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_nhap_km.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable-v24_ic_launcher_foreground.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable-v24/ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_discount_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_discount_24.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-xxxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_main.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_main.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_main_phanquyen.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_main_phanquyen.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_spanish_food.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/spanish_food.jpg"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/xml_backup_rules.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/xml/backup_rules.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_button_border.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/button_border.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_mexican_food.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/mexican_food.jpg"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_momo.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/momo.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_baseline_menu_book_24.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/baseline_menu_book_24.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_test2.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_test2.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_round.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/round.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_images.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/images.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_layout_item_topping.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/layout_item_topping.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/anim_slide_out_bottom.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/anim/slide_out_bottom.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_roundcorner.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/roundcorner.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_unknown.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/unknown.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_z1.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/z1.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_cart.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/cart.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/animator_selector.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/animator/selector.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_forgot_password1.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_forgot_password1.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_profile.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_profile.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_activity_firebase.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/activity_firebase.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_layout_row.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/layout_row.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-xxhdpi/ic_launcher_round.webp"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/mipmap-anydpi-v26/ic_launcher.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_chinese_food.jpg.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/chinese_food.jpg"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/xml_data_extraction_rules.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/xml/data_extraction_rules.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_text.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/text.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/layout_layout_paymethod.xml.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/layout/layout_paymethod.xml"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_unknown1.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/unknown1.png"
+    },
+    {
+        "merged": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-merged_res-37:/drawable_nen.png.flat",
+        "source": "/Users/tuobui/.gradle/daemon/8.0/com.example.projectandroid.app-main-39:/drawable/nen.png"
     }
 ]

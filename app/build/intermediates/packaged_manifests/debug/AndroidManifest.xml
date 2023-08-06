@@ -7,12 +7,35 @@
     <uses-sdk
         android:minSdkVersion="24"
         android:targetSdkVersion="33" />
-
+    <!-- phân quyền nhé -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+?
+    <!-- Phần này chắc login của Trọng -->
     <uses-permission android:name="android.permission.INTERNET" />
-
-    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-    <!-- <uses-sdk android:minSdkVersion="14" /> -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <!-- googlemap nhé -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <uses-feature
+        android:glEsVersion="0x00020000"
+        android:required="true" />
+
+    <queries>
+
+        <!-- Needs to be explicitly declared on Android R+ -->
+        <package android:name="com.google.android.apps.maps" />
+    </queries>
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
 
     <permission
         android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
@@ -34,7 +57,22 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProjectAndroid" >
         <activity
+            android:name="com.example.projectandroid.Main_phanquyen"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectandroid.GiaoHang"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.NhapKM"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.Main_menutopping"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.Main_menufood"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.khuyenmaiActivity"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.Test2"
@@ -52,13 +90,13 @@
             android:name="com.example.projectandroid.Signup"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.Login"
+            android:name="com.example.projectandroid.MainActivity"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.MainActivity"
+            android:name="com.example.projectandroid.Login"
             android:exported="true" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -69,6 +107,22 @@
         <activity
             android:name="com.example.projectandroid.Firebase"
             android:exported="false" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyAkV3itUcxfTfGGbheMK2wlIfEq8ICyMmI" />
+
+        <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:theme="@style/Dexter.Internal.Theme.Transparent" />
 
         <service
             android:name="com.google.firebase.components.ComponentDiscoveryService"
@@ -85,6 +139,12 @@
                 android:value="com.google.firebase.components.ComponentRegistrar" />
             <meta-data
                 android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+                android:value="com.google.firebase.components.ComponentRegistrar" />
+            <meta-data
+                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
                 android:value="com.google.firebase.components.ComponentRegistrar" />
         </service>
 
@@ -151,14 +211,26 @@
             android:exported="false"
             android:initOrder="100" />
 
+        <receiver
+            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+            android:enabled="true"
+            android:exported="false" >
+        </receiver>
+
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementService"
+            android:enabled="true"
+            android:exported="false" />
+        <service
+            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+            android:enabled="true"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
         <activity
             android:name="com.google.android.gms.common.api.GoogleApiActivity"
             android:exported="false"
             android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-
-        <meta-data
-            android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
 
         <provider
             android:name="androidx.startup.InitializationProvider"

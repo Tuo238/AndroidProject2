@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.projectandroid.app-mergeDebugResources-33:/values-night-v8/values-night-v8.xml",
+            "outputFile": "com.example.projectandroid.app-mergeDebugResources-35:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
                     "source": "/Users/tuobui/.gradle/caches/transforms-3/303eb9263005d00ba9742059495c605b/transformed/appcompat-1.6.1/res/values-night-v8/values-night-v8.xml",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "/Users/tuobui/Documents/AndroidPJ3/app/src/main/res/values-night/themes.xml",
+                    "source": "/Users/tuobui/Documents/AndroidPJ6/app/src/main/res/values-night/themes.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

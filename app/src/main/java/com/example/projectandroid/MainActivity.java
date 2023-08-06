@@ -6,7 +6,10 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
+import android.view.View;
+import android.widget.AdapterView;
 import android.widget.GridView;
+import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -35,6 +38,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<MainGridviewClass> mainGridviewClassArrayList;
     FirebaseFirestore db;
     TextView tvUserName;
+    ImageButton imgBtnUser;
 
     //Navigation
     BottomNavigationView bottom_navigation;
@@ -58,6 +62,7 @@ public class MainActivity extends AppCompatActivity {
         // below line is use to initialize our variables.
         tvUserName =(TextView)findViewById(R.id.tvUserName);
         gvMain = findViewById(R.id.gvMain);
+        imgBtnUser = findViewById(R.id.imgBtnUser);
         mainGridviewClassArrayList = new ArrayList<>();
 
         // initializing our variable for firebase
@@ -81,15 +86,15 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
-                if (itemId == R.id.test) {
-                    startActivity(new Intent(getApplicationContext(), TestActivity.class));
+                if (itemId == R.id.menu) {
+                    startActivity(new Intent(getApplicationContext(), Main_menufood.class));
                     overridePendingTransition(0, 0);
                     return true;
                 } else if (itemId == R.id.home) {
                     // Your code for handling the "test" item selected
                     return true;
-                } else if (itemId == R.id.test2) {
-                    startActivity(new Intent(getApplicationContext(), Test2.class));
+                } else if (itemId == R.id.promotion) {
+                    startActivity(new Intent(getApplicationContext(), khuyenmaiActivity.class));
                     overridePendingTransition(0, 0);
                     return true;
                 }
@@ -108,8 +113,43 @@ public class MainActivity extends AppCompatActivity {
             tvUserName.setText("Hello, Guest");
         }
 
+        gvMain.setOnItemClickListener(new AdapterView.OnItemClickListener() {
+            @Override
+            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+                MainGridviewClass clickedItem = mainGridviewClassArrayList.get(position);
+
+                openMainActivity(clickedItem);
+            }
+        });
+
+        imgBtnUser.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, EditProfile.class);
+                startActivity(intent);
+            }
+        });
 
     }
+
+    public void addEvent(){
+
+    }
+
+    private void openMainActivity(MainGridviewClass clickedItem) {
+        // Create a new Intent to open the MainActivity
+        Intent intent = new Intent(MainActivity.this, Main_menufood.class);
+
+        // Use putExtra() method to pass data to the new activity
+        // "countryName" is the key to identify the country name in the MainActivity
+        intent.putExtra("category", clickedItem.getName());
+
+        // You can add more data using additional putExtra() calls as per your data requirements
+
+        // Start the new activity with the created Intent
+        startActivity(intent);
+    }
+
 
     private void loadDatainGridView() {
         // below line is use to get data from Firebase

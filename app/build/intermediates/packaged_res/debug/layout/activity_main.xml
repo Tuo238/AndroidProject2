@@ -35,7 +35,7 @@
                     android:id="@+id/tvUserName"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="Bùi Huy Tường"
+                    android:text="ABC"
                     android:textSize="11pt"
                     android:textStyle="bold" />
             </LinearLayout>
@@ -48,12 +48,12 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/imageButton2"
+                    android:id="@+id/imgBtnUser"
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:layout_gravity="center"
                     android:background="#00000001"
-                    tools:srcCompat="@drawable/heart" />
+                    android:src="@drawable/usericon" />
 
                 <ImageButton
                     android:id="@+id/imageButton3"

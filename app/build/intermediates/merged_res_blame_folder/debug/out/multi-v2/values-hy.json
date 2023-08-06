@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.projectandroid.app-mergeDebugResources-33:/values-hy/values-hy.xml",
+            "outputFile": "com.example.projectandroid.app-mergeDebugResources-35:/values-hy/values-hy.xml",
             "map": [
                 {
                     "source": "/Users/tuobui/.gradle/caches/transforms-3/eb432a4576c866298b9a5103cd36c60d/transformed/material-1.5.0/res/values-hy/values-hy.xml",

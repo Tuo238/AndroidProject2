@@ -88,6 +88,12 @@ public class Main_menufood extends AppCompatActivity {
 
             }
         });
+
+        Intent intent = getIntent();
+        String categoryname = intent.getStringExtra("category");
+        int selectedPosition = data.indexOf(categoryname);
+        spinner_danhmuc.setSelection(selectedPosition);
+
     }
 
     public void initCategory(){

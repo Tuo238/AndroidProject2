@@ -15,5 +15,14 @@
         
         
     </style>
+    <style name="DialoAnimation">
+    <item name="android:windowEnterAnimation">@anim/slide_in_bottom</item>
+    <item name="android:windowExitAnimation">@anim/slide_out_bottom</item>
+    </style>
     <style name="Theme.ProjectAndroid" parent="Base.Theme.ProjectAndroid"/>
+    <style name="roundimageview" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20dp</item>
+        <item name="color">@color/white</item>
+    </style>
 </resources>

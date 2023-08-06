@@ -6,314 +6,459 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
+8-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml
-10
-11    <uses-permission android:name="android.permission.INTERNET" />
-11-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:5:5-67
-11-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:5:22-64
-12
-13    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
-14    <!-- <uses-sdk android:minSdkVersion="14" /> -->
-15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-15-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:12:5-79
-15-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:12:22-76
-16
-17    <permission
-17-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-18        android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-18-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-19        android:protectionLevel="signature" />
-19-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-20
-21    <uses-permission android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-21-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-21-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-22
-23    <application
-23-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:7:5-53:19
-24        android:allowBackup="true"
-24-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:8:9-35
-25        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-25-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-26        android:dataExtractionRules="@xml/data_extraction_rules"
-26-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:9:9-65
-27        android:debuggable="true"
-28        android:extractNativeLibs="false"
-29        android:fullBackupContent="@xml/backup_rules"
-29-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:10:9-54
-30        android:icon="@mipmap/ic_launcher"
-30-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:11:9-43
-31        android:label="@string/app_name"
-31-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:12:9-41
-32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:13:9-54
-33        android:supportsRtl="true"
-33-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:14:9-35
-34        android:testOnly="true"
-35        android:theme="@style/Theme.ProjectAndroid" >
-35-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:15:9-52
-36        <activity
-36-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:17:9-19:40
-37            android:name="com.example.projectandroid.GiaoHang"
-37-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:18:13-37
-38            android:exported="false" />
-38-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:19:13-37
-39        <activity
-39-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:20:9-22:40
-40            android:name="com.example.projectandroid.Test2"
-40-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:21:13-34
-41            android:exported="false" />
-41-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:22:13-37
-42        <activity
-42-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:23:9-25:40
-43            android:name="com.example.projectandroid.TestActivity"
-43-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:24:13-41
-44            android:exported="false" />
-44-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:25:13-37
-45        <activity
-45-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:26:9-28:39
-46            android:name="com.example.projectandroid.EditProfile"
-46-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:27:13-40
-47            android:exported="true" />
-47-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:28:13-36
-48        <activity
-48-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:29:9-31:40
-49            android:name="com.example.projectandroid.Profile"
-49-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:30:13-36
-50            android:exported="false" />
-50-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:31:13-37
-51        <activity
-51-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:32:9-34:40
-52            android:name="com.example.projectandroid.Signup"
-52-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:33:13-35
-53            android:exported="false" />
-53-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:34:13-37
-54        <activity
-54-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:35:9-37:40
-55            android:name="com.example.projectandroid.Login"
-55-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:36:13-34
-56            android:exported="false" />
-56-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:37:13-37
-57        <activity
-57-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:38:9-40:40
-58            android:name="com.example.projectandroid.ForgotPasswordActivity"
-58-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:39:13-51
-59            android:exported="false" />
-59-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:40:13-37
-60        <activity
-60-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:41:9-49:20
-61            android:name="com.example.projectandroid.MainActivity"
-61-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:42:13-41
-62            android:exported="true" >
-62-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:43:13-36
-63            <intent-filter>
-63-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:44:13-48:29
-64                <action android:name="android.intent.action.MAIN" />
-64-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:45:17-69
-64-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:45:25-66
-65
-66                <category android:name="android.intent.category.LAUNCHER" />
-66-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:47:17-77
-66-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:47:27-74
-67            </intent-filter>
-68        </activity>
-69        <activity
-69-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:50:9-52:40
-70            android:name="com.example.projectandroid.Firebase"
-70-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:51:13-37
-71            android:exported="false" />
-71-->/Users/tuobui/Documents/AndroidPJ3/app/src/main/AndroidManifest.xml:52:13-37
-72
-73        <service
-73-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
-74            android:name="com.google.firebase.components.ComponentDiscoveryService"
-74-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:17:13-84
-75            android:directBootAware="true"
-75-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:34:13-43
-76            android:exported="false" >
-76-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:18:13-37
-77            <meta-data
-77-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
-78                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-78-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
-79                android:value="com.google.firebase.components.ComponentRegistrar" />
-79-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
-80            <meta-data
-80-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
-81                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-81-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
-82                android:value="com.google.firebase.components.ComponentRegistrar" />
-82-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
-83            <meta-data
-83-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
-84                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-84-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
-85                android:value="com.google.firebase.components.ComponentRegistrar" />
-85-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
-86            <meta-data
-86-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
-87                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-87-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:32:17-109
-88                android:value="com.google.firebase.components.ComponentRegistrar" />
-88-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:33:17-82
-89        </service>
-90
-91        <provider
-91-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
-92            android:name="com.squareup.picasso.PicassoProvider"
-92-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
-93            android:authorities="com.example.projectandroid.com.squareup.picasso"
-93-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+9-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml
+10    <!-- phân quyền nhé -->
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:5:5-80
+11-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:5:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:6:5-78
+12-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:6:22-76
+13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+13-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:7:5-80
+13-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+14-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:8:5-70
+14-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:8:22-68
+15?
+16    <!-- Phần này chắc login của Trọng -->
+17    <uses-permission android:name="android.permission.INTERNET" />
+17-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:10:5-67
+17-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:10:22-64
+18    <uses-permission android:name="android.permission.CAMERA" />
+18-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:11:5-14:71
+18-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:12:9-49
+19    <!-- googlemap nhé -->
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+20-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:16:5-80
+20-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:16:22-77
+21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+21-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:17:5-81
+21-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:17:22-78
+22    <uses-permission android:name="android.permission.INTERNET" />
+22-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:10:5-67
+22-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:10:22-64
+23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+23-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:19:5-79
+23-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:19:22-76
+24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+24-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:6:5-78
+24-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:6:22-76
+25
+26    <uses-feature
+26-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+27        android:glEsVersion="0x00020000"
+27-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+28        android:required="true" />
+28-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+29
+30    <queries>
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+31
+32        <!-- Needs to be explicitly declared on Android R+ -->
+33        <package android:name="com.google.android.apps.maps" />
+33-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+33-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.WAKE_LOCK" />
+36-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:24:5-68
+36-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:24:22-65
+37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+37-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+37-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+38-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+38-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+39
+40    <permission
+40-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+41        android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+41-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+42        android:protectionLevel="signature" />
+42-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+43
+44    <uses-permission android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+44-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+44-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+45
+46    <application
+46-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:24:5-97:19
+47        android:allowBackup="true"
+47-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:25:9-35
+48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+48-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+49        android:dataExtractionRules="@xml/data_extraction_rules"
+49-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:26:9-65
+50        android:debuggable="true"
+51        android:extractNativeLibs="false"
+52        android:fullBackupContent="@xml/backup_rules"
+52-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:27:9-54
+53        android:icon="@mipmap/ic_launcher"
+53-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:28:9-43
+54        android:label="@string/app_name"
+54-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:29:9-41
+55        android:roundIcon="@mipmap/ic_launcher_round"
+55-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:30:9-54
+56        android:supportsRtl="true"
+56-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:31:9-35
+57        android:testOnly="true"
+58        android:theme="@style/Theme.ProjectAndroid" >
+58-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:32:9-52
+59        <activity
+59-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:34:9-36:40
+60            android:name="com.example.projectandroid.Main_phanquyen"
+60-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:35:13-43
+61            android:exported="false" />
+61-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:36:13-37
+62        <activity
+62-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:37:9-39:40
+63            android:name="com.example.projectandroid.GiaoHang"
+63-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:38:13-37
+64            android:exported="false" />
+64-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:39:13-37
+65        <activity
+65-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:40:9-42:40
+66            android:name="com.example.projectandroid.NhapKM"
+66-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:41:13-35
+67            android:exported="false" />
+67-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:42:13-37
+68        <activity
+68-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:43:9-45:40
+69            android:name="com.example.projectandroid.Main_menutopping"
+69-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:44:13-45
+70            android:exported="false" />
+70-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:45:13-37
+71        <activity
+71-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:46:9-48:40
+72            android:name="com.example.projectandroid.Main_menufood"
+72-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:47:13-42
+73            android:exported="false" />
+73-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:48:13-37
+74        <activity
+74-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:49:9-51:40
+75            android:name="com.example.projectandroid.khuyenmaiActivity"
+75-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:50:13-46
+76            android:exported="false" />
+76-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:51:13-37
+77        <activity
+77-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:52:9-54:40
+78            android:name="com.example.projectandroid.Test2"
+78-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:53:13-34
+79            android:exported="false" />
+79-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:54:13-37
+80        <activity
+80-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:55:9-57:40
+81            android:name="com.example.projectandroid.TestActivity"
+81-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:56:13-41
+82            android:exported="false" />
+82-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:57:13-37
+83        <activity
+83-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:58:9-60:39
+84            android:name="com.example.projectandroid.EditProfile"
+84-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:59:13-40
+85            android:exported="true" />
+85-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:60:13-36
+86        <activity
+86-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:61:9-63:40
+87            android:name="com.example.projectandroid.Profile"
+87-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:62:13-36
+88            android:exported="false" />
+88-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:63:13-37
+89        <activity
+89-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:64:9-66:40
+90            android:name="com.example.projectandroid.Signup"
+90-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:65:13-35
+91            android:exported="false" />
+91-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:66:13-37
+92        <activity
+92-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:67:9-69:40
+93            android:name="com.example.projectandroid.MainActivity"
+93-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:68:13-41
 94            android:exported="false" />
-94-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
-95
-96        <activity
-96-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
-97            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-97-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
-98            android:excludeFromRecents="true"
-98-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
-99            android:exported="true"
-99-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
-100            android:launchMode="singleTask"
-100-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
-101            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-101-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
-102            <intent-filter>
-102-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
-103                <action android:name="android.intent.action.VIEW" />
-103-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
-103-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
-104
-105                <category android:name="android.intent.category.DEFAULT" />
-105-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
-105-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
-106                <category android:name="android.intent.category.BROWSABLE" />
-106-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
-106-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
-107
-108                <data
-108-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
-109                    android:host="firebase.auth"
-109-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
-110                    android:path="/"
-110-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
-111                    android:scheme="genericidp" />
-111-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
-112            </intent-filter>
-113        </activity>
-114        <activity
-114-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
-115            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-115-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
-116            android:excludeFromRecents="true"
-116-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
-117            android:exported="true"
-117-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
-118            android:launchMode="singleTask"
-118-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
-119            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-119-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
-120            <intent-filter>
-120-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
-121                <action android:name="android.intent.action.VIEW" />
-121-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
-121-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+94-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:69:13-37
+95        <activity
+95-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:70:9-72:40
+96            android:name="com.example.projectandroid.ForgotPasswordActivity"
+96-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:71:13-51
+97            android:exported="false" />
+97-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:72:13-37
+98        <activity
+98-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:73:9-81:20
+99            android:name="com.example.projectandroid.Login"
+99-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:74:13-34
+100            android:exported="true" >
+100-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:75:13-36
+101            <intent-filter>
+101-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:76:13-80:29
+102                <action android:name="android.intent.action.MAIN" />
+102-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:77:17-69
+102-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:77:25-66
+103
+104                <category android:name="android.intent.category.LAUNCHER" />
+104-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:79:17-77
+104-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:79:27-74
+105            </intent-filter>
+106        </activity>
+107        <activity
+107-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:82:9-84:40
+108            android:name="com.example.projectandroid.Firebase"
+108-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:83:13-37
+109            android:exported="false" />
+109-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:84:13-37
+110
+111        <meta-data
+111-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:86:9-88:69
+112            android:name="com.google.android.gms.version"
+112-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:87:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:88:13-66
+114
+115        <uses-library
+115-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:90:9-92:40
+116            android:name="org.apache.http.legacy"
+116-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:91:13-50
+117            android:required="false" />
+117-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:92:13-37
+118
+119        <meta-data
+119-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:94:9-96:71
+120            android:name="com.google.android.geo.API_KEY"
+120-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:95:13-58
+121            android:value="AIzaSyAkV3itUcxfTfGGbheMK2wlIfEq8ICyMmI" />
+121-->/Users/tuobui/Documents/AndroidPJ6/app/src/main/AndroidManifest.xml:96:13-68
 122
-123                <category android:name="android.intent.category.DEFAULT" />
-123-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
-123-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
-124                <category android:name="android.intent.category.BROWSABLE" />
-124-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
-124-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
-125
-126                <data
-126-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
-127                    android:host="firebase.auth"
-127-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
-128                    android:path="/"
-128-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
-129                    android:scheme="recaptcha" />
-129-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
-130            </intent-filter>
-131        </activity>
-132        <activity
-132-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
-133            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-133-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
-134            android:excludeFromRecents="true"
-134-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
-135            android:exported="false"
-135-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
-136            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-136-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
-137        <!--
-138            Service handling Google Sign-In user revocation. For apps that do not integrate with
-139            Google Sign-In, this service will never be started.
-140        -->
-141        <service
-141-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
-142            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-142-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
-143            android:exported="true"
-143-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
-144            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-144-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
-145            android:visibleToInstantApps="true" />
-145-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
-146
-147        <provider
-147-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
-148            android:name="com.google.firebase.provider.FirebaseInitProvider"
-148-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:26:13-77
-149            android:authorities="com.example.projectandroid.firebaseinitprovider"
-149-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:27:13-72
-150            android:directBootAware="true"
-150-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:28:13-43
-151            android:exported="false"
-151-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:29:13-37
-152            android:initOrder="100" />
-152-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:30:13-36
-153
-154        <activity
-154-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
-155            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-155-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
-156            android:exported="false"
-156-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
-157            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-157-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
-158
-159        <meta-data
-159-->[com.google.android.gms:play-services-basement:18.2.0] /Users/tuobui/.gradle/caches/transforms-3/36330d83064318bf963c81c4526dbdc9/transformed/play-services-basement-18.2.0/AndroidManifest.xml:21:9-23:69
-160            android:name="com.google.android.gms.version"
-160-->[com.google.android.gms:play-services-basement:18.2.0] /Users/tuobui/.gradle/caches/transforms-3/36330d83064318bf963c81c4526dbdc9/transformed/play-services-basement-18.2.0/AndroidManifest.xml:22:13-58
-161            android:value="@integer/google_play_services_version" />
-161-->[com.google.android.gms:play-services-basement:18.2.0] /Users/tuobui/.gradle/caches/transforms-3/36330d83064318bf963c81c4526dbdc9/transformed/play-services-basement-18.2.0/AndroidManifest.xml:23:13-66
-162
-163        <provider
-163-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-164            android:name="androidx.startup.InitializationProvider"
-164-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
-165            android:authorities="com.example.projectandroid.androidx-startup"
-165-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
-166            android:exported="false" >
-166-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
-167            <meta-data
-167-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-168                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-168-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
-169                android:value="androidx.startup" />
-169-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
-170            <meta-data
-170-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-171                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-171-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-172                android:value="androidx.startup" />
-172-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-173        </provider>
-174    </application>
-175
-176</manifest>
+123        <activity
+123-->[com.karumi:dexter:6.2.2] /Users/tuobui/.gradle/caches/transforms-3/96a5910712a41e9706fdcd4ac108a9be/transformed/dexter-6.2.2/AndroidManifest.xml:27:9-29:72
+124            android:name="com.karumi.dexter.DexterActivity"
+124-->[com.karumi:dexter:6.2.2] /Users/tuobui/.gradle/caches/transforms-3/96a5910712a41e9706fdcd4ac108a9be/transformed/dexter-6.2.2/AndroidManifest.xml:28:13-60
+125            android:theme="@style/Dexter.Internal.Theme.Transparent" />
+125-->[com.karumi:dexter:6.2.2] /Users/tuobui/.gradle/caches/transforms-3/96a5910712a41e9706fdcd4ac108a9be/transformed/dexter-6.2.2/AndroidManifest.xml:29:13-69
+126
+127        <service
+127-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
+128            android:name="com.google.firebase.components.ComponentDiscoveryService"
+128-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:17:13-84
+129            android:directBootAware="true"
+129-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:34:13-43
+130            android:exported="false" >
+130-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:18:13-37
+131            <meta-data
+131-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
+132                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
+132-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
+133                android:value="com.google.firebase.components.ComponentRegistrar" />
+133-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
+134            <meta-data
+134-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
+135                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
+135-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
+136                android:value="com.google.firebase.components.ComponentRegistrar" />
+136-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
+137            <meta-data
+137-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
+138                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+138-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
+139                android:value="com.google.firebase.components.ComponentRegistrar" />
+139-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
+140            <meta-data
+140-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
+141                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+141-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:32:17-109
+142                android:value="com.google.firebase.components.ComponentRegistrar" />
+142-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:33:17-82
+143            <meta-data
+143-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
+144                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+144-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
+145                android:value="com.google.firebase.components.ComponentRegistrar" />
+145-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
+146            <meta-data
+146-->[com.google.firebase:firebase-installations:17.1.3] /Users/tuobui/.gradle/caches/transforms-3/aafd2e6e0f4196cb37d02671873a9b63/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
+147                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+147-->[com.google.firebase:firebase-installations:17.1.3] /Users/tuobui/.gradle/caches/transforms-3/aafd2e6e0f4196cb37d02671873a9b63/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
+148                android:value="com.google.firebase.components.ComponentRegistrar" />
+148-->[com.google.firebase:firebase-installations:17.1.3] /Users/tuobui/.gradle/caches/transforms-3/aafd2e6e0f4196cb37d02671873a9b63/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
+149        </service>
+150
+151        <provider
+151-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
+152            android:name="com.squareup.picasso.PicassoProvider"
+152-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
+153            android:authorities="com.example.projectandroid.com.squareup.picasso"
+153-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
+154            android:exported="false" />
+154-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
+155
+156        <activity
+156-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
+157            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+157-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
+158            android:excludeFromRecents="true"
+158-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
+159            android:exported="true"
+159-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
+160            android:launchMode="singleTask"
+160-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
+161            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+161-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
+162            <intent-filter>
+162-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
+163                <action android:name="android.intent.action.VIEW" />
+163-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+163-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+164
+165                <category android:name="android.intent.category.DEFAULT" />
+165-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+165-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+166                <category android:name="android.intent.category.BROWSABLE" />
+166-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+166-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+167
+168                <data
+168-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
+169                    android:host="firebase.auth"
+169-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
+170                    android:path="/"
+170-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
+171                    android:scheme="genericidp" />
+171-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
+172            </intent-filter>
+173        </activity>
+174        <activity
+174-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
+175            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+175-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
+176            android:excludeFromRecents="true"
+176-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
+177            android:exported="true"
+177-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
+178            android:launchMode="singleTask"
+178-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
+179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+179-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
+180            <intent-filter>
+180-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
+181                <action android:name="android.intent.action.VIEW" />
+181-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+181-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
+182
+183                <category android:name="android.intent.category.DEFAULT" />
+183-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+183-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
+184                <category android:name="android.intent.category.BROWSABLE" />
+184-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+184-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
+185
+186                <data
+186-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
+187                    android:host="firebase.auth"
+187-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
+188                    android:path="/"
+188-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
+189                    android:scheme="recaptcha" />
+189-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
+190            </intent-filter>
+191        </activity>
+192        <activity
+192-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
+193            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+193-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
+194            android:excludeFromRecents="true"
+194-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
+195            android:exported="false"
+195-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
+196            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+196-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
+197        <!--
+198            Service handling Google Sign-In user revocation. For apps that do not integrate with
+199            Google Sign-In, this service will never be started.
+200        -->
+201        <service
+201-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
+202            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+202-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
+203            android:exported="true"
+203-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
+204            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+204-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
+205            android:visibleToInstantApps="true" />
+205-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
+206
+207        <provider
+207-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
+208            android:name="com.google.firebase.provider.FirebaseInitProvider"
+208-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:26:13-77
+209            android:authorities="com.example.projectandroid.firebaseinitprovider"
+209-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:27:13-72
+210            android:directBootAware="true"
+210-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:28:13-43
+211            android:exported="false"
+211-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:29:13-37
+212            android:initOrder="100" />
+212-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:30:13-36
+213
+214        <receiver
+214-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
+215            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+215-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
+216            android:enabled="true"
+216-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
+217            android:exported="false" >
+217-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
+218        </receiver>
+219
+220        <service
+220-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
+221            android:name="com.google.android.gms.measurement.AppMeasurementService"
+221-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
+222            android:enabled="true"
+222-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
+223            android:exported="false" />
+223-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
+224        <service
+224-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
+225            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+225-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
+226            android:enabled="true"
+226-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
+227            android:exported="false"
+227-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
+228            android:permission="android.permission.BIND_JOB_SERVICE" />
+228-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
+229
+230        <activity
+230-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
+231            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+231-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
+232            android:exported="false"
+232-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
+233            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+233-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
+234
+235        <provider
+235-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+236            android:name="androidx.startup.InitializationProvider"
+236-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
+237            android:authorities="com.example.projectandroid.androidx-startup"
+237-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
+238            android:exported="false" >
+238-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
+239            <meta-data
+239-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+240                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+240-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
+241                android:value="androidx.startup" />
+241-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
+242            <meta-data
+242-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+243                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+243-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+244                android:value="androidx.startup" />
+244-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+245        </provider>
+246    </application>
+247
+248</manifest>

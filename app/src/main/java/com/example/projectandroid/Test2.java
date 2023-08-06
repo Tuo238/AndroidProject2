@@ -34,7 +34,7 @@ public class Test2 extends AppCompatActivity {
                 } else if (itemId == R.id.test2) {
                     // Your code for handling the "test" item selected
                     return true;
-                } else if (itemId == R.id.test) {
+                } else if (itemId == R.id.test2) {
                     startActivity(new Intent(getApplicationContext(), TestActivity.class));
                     overridePendingTransition(0, 0);
                     return true;

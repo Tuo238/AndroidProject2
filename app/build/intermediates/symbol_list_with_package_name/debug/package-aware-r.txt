@@ -31,6 +31,8 @@ anim fragment_fast_out_extra_slow_in
 anim mtrl_bottom_sheet_slide_in
 anim mtrl_bottom_sheet_slide_out
 anim mtrl_card_lowers_interpolator
+anim slide_in_bottom
+anim slide_out_bottom
 animator design_appbar_state_list_animator
 animator design_fab_hide_motion_spec
 animator design_fab_show_motion_spec
@@ -111,6 +113,7 @@ attr allowStacking
 attr alpha
 attr alphabeticModifiers
 attr altSrc
+attr ambientEnabled
 attr animateCircleAngleTo
 attr animateRelativeTo
 attr animationMode
@@ -196,6 +199,13 @@ attr buttonStyle
 attr buttonStyleSmall
 attr buttonTint
 attr buttonTintMode
+attr cameraBearing
+attr cameraMaxZoomPreference
+attr cameraMinZoomPreference
+attr cameraTargetLat
+attr cameraTargetLng
+attr cameraTilt
+attr cameraZoom
 attr cardBackgroundColor
 attr cardCornerRadius
 attr cardElevation
@@ -624,6 +634,10 @@ attr labelBehavior
 attr labelStyle
 attr labelVisibilityMode
 attr lastBaselineToBottomHeight
+attr latLngBoundsNorthEastLatitude
+attr latLngBoundsNorthEastLongitude
+attr latLngBoundsSouthWestLatitude
+attr latLngBoundsSouthWestLongitude
 attr layout
 attr layoutDescription
 attr layoutDuringTransition
@@ -718,8 +732,11 @@ attr listPreferredItemPaddingEnd
 attr listPreferredItemPaddingLeft
 attr listPreferredItemPaddingRight
 attr listPreferredItemPaddingStart
+attr liteMode
 attr logo
 attr logoDescription
+attr mapId
+attr mapType
 attr marginHorizontal
 attr materialAlertDialogBodyTextStyle
 attr materialAlertDialogButtonSpacerVisibility
@@ -1145,9 +1162,18 @@ attr triggerId
 attr triggerReceiver
 attr triggerSlack
 attr ttcIndex
+attr uiCompass
+attr uiMapToolbar
+attr uiRotateGestures
+attr uiScrollGestures
+attr uiScrollGesturesDuringRotateOrZoom
+attr uiTiltGestures
+attr uiZoomControls
+attr uiZoomGestures
 attr upDuration
 attr useCompatPadding
 attr useMaterialThemeColors
+attr useViewLifecycle
 attr values
 attr verticalOffset
 attr verticalOffsetWithText
@@ -1178,6 +1204,7 @@ attr windowNoTitle
 attr yearSelectedStyle
 attr yearStyle
 attr yearTodayStyle
+attr zOrderOnTop
 bool abc_action_bar_embed_tabs
 bool abc_config_actionMenuItemAllCaps
 bool m3_sys_typescale_body_large_text_all_caps
@@ -2473,6 +2500,7 @@ drawable abc_vector_test
 drawable american_food
 drawable avd_hide_password
 drawable avd_show_password
+drawable background_payment
 drawable baseline_arrow_back_24
 drawable baseline_autorenew_24
 drawable baseline_discount_24
@@ -2485,15 +2513,20 @@ drawable baseline_person_24
 drawable baseline_save_alt_24
 drawable baseline_shopping_cart_24
 drawable bill
+drawable border
 drawable btn
 drawable btn_checkbox_checked_mtrl
 drawable btn_checkbox_checked_to_unchecked_mtrl_animation
 drawable btn_checkbox_unchecked_mtrl
 drawable btn_checkbox_unchecked_to_checked_mtrl_animation
+drawable btn_count_food
+drawable btn_datgiaomon
 drawable btn_radio_off_mtrl
 drawable btn_radio_off_to_on_mtrl_animation
 drawable btn_radio_on_mtrl
 drawable btn_radio_on_to_off_mtrl_animation
+drawable cart
+drawable change_paymenthod
 drawable chinese_food
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
@@ -2522,6 +2555,7 @@ drawable design_ic_visibility_off
 drawable design_password_eye
 drawable design_snackbar_background
 drawable error
+drawable filter_icon
 drawable googleg_disabled_color_18
 drawable googleg_standard_color_18
 drawable gradient
@@ -2539,7 +2573,9 @@ drawable ic_mtrl_chip_checked_black
 drawable ic_mtrl_chip_checked_circle
 drawable ic_mtrl_chip_close_circle
 drawable images
+drawable img
 drawable indian_food
+drawable layout_menthod
 drawable loading
 drawable logo
 drawable m3_appbar_background
@@ -2561,6 +2597,8 @@ drawable material_ic_keyboard_arrow_right_black_24dp
 drawable material_ic_menu_arrow_down_black_24dp
 drawable material_ic_menu_arrow_up_black_24dp
 drawable mexican_food
+drawable momo
+drawable money_paymenthod2
 drawable mtrl_dialog_background
 drawable mtrl_dropdown_arrow
 drawable mtrl_ic_arrow_drop_down
@@ -2586,7 +2624,13 @@ drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
 drawable placeholder
+drawable plus
+drawable round
+drawable round_corner
+drawable roundcorner
+drawable sale
 drawable search_border
+drawable shipper
 drawable spanish_food
 drawable test_custom_background
 drawable test_level_drawable
@@ -2597,7 +2641,9 @@ drawable tooltip_frame_light
 drawable tracking
 drawable unknown
 drawable unknown1
+drawable usericon
 drawable z1
+font montserrat_medium
 id ALT
 id BOTTOM_END
 id BOTTOM_START
@@ -2715,7 +2761,24 @@ id browser_actions_menu_items
 id browser_actions_menu_view
 id btnForgotPasswordBack
 id btnReset
+id btn_NhapKM
+id btn_Nhap_1_KM
+id btn_capnhap
+id btn_change_address
+id btn_dathang
+id btn_giam
+id btn_giamsoluong
+id btn_order
+id btn_tang
+id btn_tangsoluong
+id btnkhuyenmai
+id btnmocua
+id button
+id button2
+id button3
+id button5
 id buttonPanel
+id cB_topping
 id cache_measures
 id callMeasure
 id cancel_button
@@ -2813,6 +2876,7 @@ id flip
 id floating
 id forever
 id forgetPasswordProgressbar
+id fra_nav_giohang
 id fragment_container_view_tag
 id frameFragment
 id frost
@@ -2833,6 +2897,7 @@ id home
 id homeAsUp
 id honorRequest
 id horizontal_only
+id hybrid
 id icon
 id icon_group
 id icon_only
@@ -2841,13 +2906,20 @@ id ignore
 id ignoreRequest
 id image
 id imageButton
-id imageButton2
 id imageButton3
+id imageFood
 id imageView
 id imageView2
 id image_view
+id imgBtnKM
+id imgBtnUser
 id imgCategory
+id imgPayment
 id imgSlider
+id img_btn_paymenthod
+id img_momo
+id img_paymenthod_money
+id img_shipper
 id immediateStop
 id included
 id info
@@ -2859,6 +2931,10 @@ id jumpToEnd
 id jumpToStart
 id labeled
 id layout
+id layout_background_menthod
+id layout_food
+id layout_payment_momo
+id layout_paymenthod_money
 id left
 id leftToRight
 id legacy
@@ -2872,6 +2948,10 @@ id list_item
 id login_button
 id login_email
 id login_password
+id lstFood
+id lv_khuyenmai
+id lv_topping
+id map
 id masked
 id match_constraint
 id match_parent
@@ -2894,6 +2974,7 @@ id material_timepicker_mode_button
 id material_timepicker_ok_button
 id material_timepicker_view
 id material_value_index
+id menu
 id message
 id middle
 id mini
@@ -2903,6 +2984,7 @@ id month_navigation_fragment_toggle
 id month_navigation_next
 id month_navigation_previous
 id month_title
+id motaFood
 id motion_base
 id mtrl_anchor_parent
 id mtrl_calendar_day_selector_frame
@@ -2928,6 +3010,7 @@ id mtrl_picker_text_input_range_start
 id mtrl_picker_title_text
 id mtrl_view_tag_bottom_padding
 id multiply
+id nameFood
 id navigation_bar_item_active_indicator_view
 id navigation_bar_item_icon_container
 id navigation_bar_item_icon_view
@@ -2943,12 +3026,14 @@ id noState
 id none
 id normal
 id north
+id note_paymenthod
 id notification_background
 id notification_main_column
 id notification_main_column_container
 id off
 id on
 id onInterceptTouchReturnSwipe
+id order_payment
 id outline
 id outward
 id overshoot
@@ -2973,6 +3058,7 @@ id promotion
 id radio
 id ratio
 id rectangles
+id result
 id reverseSawtooth
 id right
 id rightToLeft
@@ -2980,6 +3066,8 @@ id right_icon
 id right_side
 id rounded
 id row_index_key
+id saleFood
+id satellite
 id save
 id save_non_transition_alpha
 id save_overlay_view
@@ -3025,6 +3113,7 @@ id snapMargins
 id south
 id spacer
 id special_effects_controller_view_tag
+id spinner_danhmuc
 id spline
 id split_action_bar
 id spread
@@ -3060,7 +3149,7 @@ id tag_transition_group
 id tag_unhandled_key_event_manager
 id tag_unhandled_key_listeners
 id tag_window_insets_animation_callback
-id test
+id terrain
 id test2
 id test_checkbox_android_button_tint
 id test_checkbox_app_button_tint
@@ -3074,6 +3163,7 @@ id textSpacerNoTitle
 id textStart
 id textTop
 id textView
+id textView11
 id textView2
 id textView3
 id textView4
@@ -3095,7 +3185,10 @@ id textinput_suffix_text
 id time
 id title
 id titleDividerNoCustom
+id title_phiKhac
+id title_ship
 id title_template
+id title_tongtien
 id toggle
 id top
 id topPanel
@@ -3109,7 +3202,23 @@ id transition_scene_layoutid_cache
 id transition_transform
 id triangle
 id tvCategory
+id tvGiaKhac
+id tvGiaShip
+id tvGiaTien
+id tvTongtien
 id tvUserName
+id tv_address_giaohang
+id tv_giaohang
+id tv_money
+id tv_name
+id tv_name_momo
+id tv_name_money
+id tv_name_topping
+id tv_payment_different
+id tv_payment_note
+id tv_paymentchange_note
+id tv_soluong
+id tvkq
 id txtLayoutEmail
 id txtforgotPassword
 id unchecked
@@ -3230,15 +3339,23 @@ layout abc_tooltip
 layout activity_edit_profile
 layout activity_firebase
 layout activity_forgot_password1
+layout activity_ggmap
 layout activity_giao_hang
+layout activity_khuyenmai
 layout activity_login
 layout activity_main
+layout activity_main_menufood
+layout activity_main_menutopping
+layout activity_main_paymet
+layout activity_main_phanquyen
+layout activity_nhap_km
 layout activity_profile
 layout activity_signup
 layout activity_test
 layout activity_test2
 layout browser_actions_context_menu_page
 layout browser_actions_context_menu_row
+layout button_border
 layout custom_dialog
 layout design_bottom_navigation_item
 layout design_bottom_sheet_dialog
@@ -3256,6 +3373,11 @@ layout design_navigation_menu_item
 layout design_text_input_end_icon
 layout design_text_input_start_icon
 layout image_slider
+layout layout_item_drink
+layout layout_item_topping
+layout layout_khuyen_mai
+layout layout_paymethod
+layout layout_row
 layout m3_alert_dialog
 layout m3_alert_dialog_actions
 layout m3_alert_dialog_title
@@ -3773,6 +3895,8 @@ style Base_Widget_MaterialComponents_TextView
 style CardView
 style CardView_Dark
 style CardView_Light
+style Dexter_Internal_Theme_Transparent
+style DialoAnimation
 style EmptyTheme
 style MaterialAlertDialog_Material3
 style MaterialAlertDialog_Material3_Body_Text
@@ -4516,6 +4640,7 @@ style Widget_MaterialComponents_Toolbar_PrimarySurface
 style Widget_MaterialComponents_Toolbar_Surface
 style Widget_MaterialComponents_Tooltip
 style Widget_Support_CoordinatorLayout
+style roundimageview
 styleable ActionBar background backgroundSplit backgroundStacked contentInsetEnd contentInsetEndWithActions contentInsetLeft contentInsetRight contentInsetStart contentInsetStartWithNavigation customNavigationLayout displayOptions divider elevation height hideOnContentScroll homeAsUpIndicator homeLayout icon indeterminateProgressStyle itemPadding logo navigationMode popupTheme progressBarPadding progressBarStyle subtitle subtitleTextStyle title titleTextStyle
 styleable ActionBarLayout android_layout_gravity
 styleable ActionMenuItemView android_minWidth
@@ -4594,6 +4719,7 @@ styleable LinearLayoutCompat_Layout android_layout_gravity android_layout_width 
 styleable LinearProgressIndicator indeterminateAnimationType indicatorDirectionLinear
 styleable ListPopupWindow android_dropDownHorizontalOffset android_dropDownVerticalOffset
 styleable LoadingImageView circleCrop imageAspectRatio imageAspectRatioAdjust
+styleable MapAttrs ambientEnabled backgroundColor cameraBearing cameraMaxZoomPreference cameraMinZoomPreference cameraTargetLat cameraTargetLng cameraTilt cameraZoom latLngBoundsNorthEastLatitude latLngBoundsNorthEastLongitude latLngBoundsSouthWestLatitude latLngBoundsSouthWestLongitude liteMode mapId mapType uiCompass uiMapToolbar uiRotateGestures uiScrollGestures uiScrollGesturesDuringRotateOrZoom uiTiltGestures uiZoomControls uiZoomGestures useViewLifecycle zOrderOnTop
 styleable MaterialAlertDialog backgroundInsetBottom backgroundInsetEnd backgroundInsetStart backgroundInsetTop
 styleable MaterialAlertDialogTheme materialAlertDialogBodyTextStyle materialAlertDialogButtonSpacerVisibility materialAlertDialogTheme materialAlertDialogTitleIconStyle materialAlertDialogTitlePanelStyle materialAlertDialogTitleTextStyle
 styleable MaterialAutoCompleteTextView android_inputType

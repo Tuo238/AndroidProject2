@@ -38,6 +38,18 @@
             android:name=".GiaoHang"
             android:exported="false" />
         <activity
+            android:name=".NhapKM"
+            android:exported="false" />
+        <activity
+            android:name=".Main_menutopping"
+            android:exported="false" />
+        <activity
+            android:name=".Main_menufood"
+            android:exported="false" />
+        <activity
+            android:name=".khuyenmaiActivity"
+            android:exported="false" />
+        <activity
             android:name=".Test2"
             android:exported="false" />
         <activity
@@ -53,13 +65,13 @@
             android:name=".Signup"
             android:exported="false" />
         <activity
-            android:name=".Login"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".ForgotPasswordActivity"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Login"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
