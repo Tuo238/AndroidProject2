@@ -48,12 +48,12 @@ public class FoodAdapter extends ArrayAdapter{
         txt2.setText(food.getMota());
         TextView txt3 = convertView.findViewById(R.id.saleFood);
         txt3.setText(food.getSale()+"đ");
-        Button btnOrder = convertView.findViewById(R.id.btn_order);
-        btnOrder.setOnClickListener(new View.OnClickListener() {
+        Button btnorther = convertView.findViewById(R.id.btn_order);
+        btnorther.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Main_menufood Main_menufood = (Main_menufood) context;
-                Main_menufood.changeActivity(food.getId(),food.getPath());
+                Main_menufood.changeIntent(food.getId().toString());
             }
         });
         return convertView;

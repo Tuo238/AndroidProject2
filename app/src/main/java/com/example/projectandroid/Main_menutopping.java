@@ -7,7 +7,6 @@ import android.widget.Button;
 import android.widget.CheckBox;
 import android.widget.ListView;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -20,6 +19,9 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -81,9 +83,41 @@ public class Main_menutopping extends AppCompatActivity {
                     }
                 }
                 Intent intent = getIntent();
-                cartData cartItem = new cartData(intent.getStringExtra("idFood"),intent.getStringExtra("pathFood"),String.join(", ",lstnameTopping),String.valueOf(priceTopping));
-                //DataHolder.getInstance().setData(cartItem);
-                Toast.makeText(Main_menutopping.this, cartItem.getLstnameTopping(), Toast.LENGTH_SHORT).show();
+                String idFood = intent.getStringExtra("idFood");
+                // đọc dữ liệu trong cart
+//                String oldData = "";
+//                try {
+//                    InputStream in=openFileInput("dataCart.txt",Main_menutopping.MODE_PRIVATE);
+//                    int size=in.available();
+//                    byte[]buffer=new byte[size];
+//                    in.read(buffer);
+//                    in.close();
+//                    oldData = new String(buffer);
+//                } catch (FileNotFoundException e) {
+//                    throw new RuntimeException(e);
+//                } catch (IOException e) {
+//                    throw new RuntimeException(e);
+//                }
+                 //ghi thêm dữ liệu trong cart
+                String newData = "";
+                try {
+                    OutputStream op=openFileOutput("dataCart.txt",MODE_APPEND);
+                    if(priceTopping == 0)
+                    {
+                        newData=idFood+"\n";
+                    }
+                    else{
+                        newData=idFood+"-"+String.join(",",lstnameTopping)+"-"+String.valueOf(priceTopping)+"\n";
+                    }
+                    op.write(newData.getBytes());
+                    op.close();
+                    Intent changeIntent = new Intent(Main_menutopping.this,Main_menufood.class);
+                    startActivity(changeIntent);
+                } catch (FileNotFoundException e) {
+                    throw new RuntimeException(e);
+                } catch (IOException e) {
+                    throw new RuntimeException(e);
+                }
             }
         });
     }

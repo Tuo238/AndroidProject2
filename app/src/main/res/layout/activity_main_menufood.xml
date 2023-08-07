@@ -51,7 +51,7 @@
             android:layout_marginRight="5dp"
             android:background="@drawable/roundcorner"
             android:layout_alignParentLeft="true"
-             android:src="@drawable/filter_icon" />
+            android:src="@drawable/filter_icon" />
 
         <HorizontalScrollView
             android:id="@+id/scroll"
@@ -124,16 +124,73 @@
             </LinearLayout>
         </HorizontalScrollView >
     </LinearLayout>
-<FrameLayout
-    android:id="@+id/fra_nav_giohang"
-    android:layout_width="match_parent"
-    android:layout_height="wrap_content">
 
     <ListView
         android:id="@+id/lstFood"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
+        android:layout_height="510dp"
         android:layout_marginTop="10dp" />
-</FrameLayout>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/nav_giohang"
+        android:layout_margin="30dp"
+        app:labelVisibilityMode="unlabeled"
+        android:background="@drawable/round_corner"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="4 item"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_item"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:text="Name item"
+                android:textColor="#FFF"
+
+                android:textSize="18dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Gia tien" />
+
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="270dp"
+            android:scaleType="fitCenter"
+            android:background="#00CC00"
+            app:srcCompat="@drawable/cartword" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
 
 </LinearLayout>
