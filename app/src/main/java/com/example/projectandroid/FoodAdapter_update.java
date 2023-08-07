@@ -21,11 +21,11 @@ import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 
-public class FoodAdapter extends ArrayAdapter{
+public class FoodAdapter_update extends ArrayAdapter{
     Context context;
-    ArrayList<Food> arrayList;
+    ArrayList<Food_update> arrayList;
     int layout;
-    public FoodAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Food> objects) {
+    public FoodAdapter_update(@NonNull Context context, int resource, @NonNull ArrayList<Food_update> objects) {
         super(context, resource, objects);
         this.context = context;
         this.arrayList = objects;
@@ -35,7 +35,7 @@ public class FoodAdapter extends ArrayAdapter{
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Food food = arrayList.get(position);
+        Food_update food = arrayList.get(position);
         if(convertView == null){
             convertView = LayoutInflater.from(context).inflate(layout,null);
         }
@@ -48,12 +48,12 @@ public class FoodAdapter extends ArrayAdapter{
         txt2.setText(food.getMota());
         TextView txt3 = convertView.findViewById(R.id.saleFood);
         txt3.setText(food.getSale()+"đ");
-        Button btnOrder = convertView.findViewById(R.id.btn_order);
-        btnOrder.setOnClickListener(new View.OnClickListener() {
+        Button btnorther = convertView.findViewById(R.id.btn_order);
+        btnorther.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Main_menufood Main_menufood = (Main_menufood) context;
-                Main_menufood.changeActivity(food.getId(),food.getPath());
+                Main_menufood_update Main_menufood_update = (Main_menufood_update) context;
+                Main_menufood_update.changeIntent(food.getId().toString());
             }
         });
         return convertView;

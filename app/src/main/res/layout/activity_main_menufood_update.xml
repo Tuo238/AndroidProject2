@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingTop="20dp"
+    tools:context=".Main_menufood_update">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:paddingBottom="10dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@null"
+            android:src="@drawable/baseline_arrow_back_24" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="fill_parent"
+            android:layout_height="30dp"
+            android:layout_marginLeft="20dp"
+            android:gravity="left"
+            android:text="Các món ăn gần bạn"
+            android:textSize="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:gravity="center"
+        android:paddingLeft="16dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:maxWidth="30dp"
+            android:maxHeight="30dp"
+            android:padding="5dp"
+            android:scaleType="fitCenter"
+            android:layout_marginRight="5dp"
+            android:background="@drawable/roundcorner"
+            android:layout_alignParentLeft="true"
+            android:src="@drawable/filter_icon" />
+
+        <HorizontalScrollView
+            android:id="@+id/scroll"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+
+                <Spinner
+                    android:id="@+id/spinner_danhmuc"
+                    android:layout_width="wrap_content"
+                    android:layout_height="38dp"
+                    android:layout_gravity="left"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:spinnerMode="dialog"
+                    android:layout_marginTop="20dp" />
+
+                <Button
+                    android:id="@+id/button2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:text="Gần tôi"
+                    android:textColor="@color/black" />
+
+                <Button
+                    android:id="@+id/button3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:text="4.5 sao trở lên" />
+
+                <!--            <Button-->
+                <!--                android:id="@+id/button4"-->
+                <!--                android:layout_width="wrap_content"-->
+                <!--                android:layout_height="wrap_content"-->
+                <!--                android:layout_marginLeft="12dp"-->
+                <!--                android:backgroundTint="#E4E2E2"-->
+                <!--                android:textColor="@color/black"-->
+                <!--                android:text="Loại ẩm thực" />-->
+
+                <Button
+                    android:id="@+id/btnkhuyenmai"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:text="Ưu đãi món ăn" />
+
+                <Button
+                    android:id="@+id/btnmocua"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="12dp"
+                    android:backgroundTint="#E4E2E2"
+                    android:textColor="@color/black"
+                    android:text="Đang mở cửa" />
+            </LinearLayout>
+        </HorizontalScrollView >
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lstFood"
+        android:layout_width="match_parent"
+        android:layout_height="510dp"
+        android:layout_marginTop="10dp" />
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:id="@+id/nav_giohang"
+        android:layout_margin="30dp"
+        app:labelVisibilityMode="unlabeled"
+        android:background="@drawable/round_corner"
+        >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/tv_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="10dp"
+                android:text="4 item"
+                android:textColor="#FFF"
+                android:textSize="15dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tv_name_item"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tv_item"
+                android:layout_marginLeft="30dp"
+                android:layout_marginTop="2dp"
+                android:text="Name item"
+                android:textColor="#FFF"
+
+                android:textSize="18dp"
+                android:textStyle="italic" />
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="200dp"
+            android:textColor="#FFF"
+            android:textStyle="bold"
+            android:textSize="18dp"
+            android:text="Gia tien" />
+
+        <ImageButton
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="270dp"
+            android:scaleType="fitCenter"
+            android:background="#00CC00"
+            app:srcCompat="@drawable/cartword" />
+
+
+    </com.google.android.material.bottomnavigation.BottomNavigationView>
+
+</LinearLayout>

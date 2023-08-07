@@ -6,7 +6,7 @@
     android:layout_height="wrap_content"
     android:orientation="vertical"
     android:background="@drawable/background_payment"
-    tools:context=".Main_paymet">
+    tools:context=".Main_paymet_update">
     <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"

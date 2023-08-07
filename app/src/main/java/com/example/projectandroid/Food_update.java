@@ -1,30 +1,17 @@
 package com.example.projectandroid;
 
-public class Food {
-    String id;
+public class Food_update {
         String img;
         String name;
         String mota;
         String sale;
-        String path;
+        String id;
 
-    public Food(String id, String img, String name, String mota, String sale, String path) {
-        this.id = id;
+    public Food_update(String img, String name, String mota, String sale, String id) {
         this.img = img;
         this.name = name;
         this.mota = mota;
         this.sale = sale;
-        this.path = path;
-    }
-
-    public String getId() {
-        return id;
-    }
-    public String getPath() {
-        return path;
-    }
-
-    public void setId(String id) {
         this.id = id;
     }
 
@@ -58,5 +45,13 @@ public class Food {
 
     public void setSale(String sale) {
         this.sale = sale;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 }
