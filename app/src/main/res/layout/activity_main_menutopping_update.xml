@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Main_menutopping_update">
+    <LinearLayout
+        android:layout_width="410dp"
+        android:layout_height="730dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:orientation="vertical"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:text="Mua trà sữa có topping"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:paddingLeft="10dp"
+            android:paddingTop="8dp"
+            android:text="Up Size"
+            android:textSize="22dp"
+            android:textStyle="bold" />
+
+        <ListView
+            android:id="@+id/lv_topping"
+            android:layout_width="match_parent"
+            android:layout_height="450dp">
+
+        </ListView>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/textView4"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:text="Số lượng món"
+                android:textSize="22dp" />
+
+
+            <ImageButton
+                android:id="@+id/btn_tangsoluong"
+                android:layout_width="70dp"
+                android:layout_height="60dp"
+                android:background="#FFF"
+                android:scaleType="center"
+                app:srcCompat="@drawable/tang" />
+
+            <TextView
+                android:id="@+id/tv_soluong"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="2"
+
+                android:textSize="30dp" />
+
+            <ImageButton
+                android:id="@+id/btn_giamsoluong"
+                android:layout_width="50dp"
+                android:layout_height="60dp"
+                android:background="#FFF"
+
+                android:scaleType="fitCenter"
+                android:layout_weight="0.5"
+                app:srcCompat="@drawable/giamm" />
+
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_capnhap"
+            android:layout_width="320dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"
+            android:text="Cập nhập đơn hàng"
+            android:textSize="22dp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

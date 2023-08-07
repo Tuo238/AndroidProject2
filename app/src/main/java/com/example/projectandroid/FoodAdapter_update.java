@@ -8,7 +8,6 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.Filter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -22,13 +21,11 @@ import com.google.firebase.storage.StorageReference;
 
 import java.util.ArrayList;
 
-public class FoodAdapter extends ArrayAdapter{
+public class FoodAdapter_update extends ArrayAdapter{
     Context context;
-    ArrayList<Food> arrayList;
-
-    private ArrayList<Food> originalData;
+    ArrayList<Food_update> arrayList;
     int layout;
-    public FoodAdapter(@NonNull Context context, int resource, @NonNull ArrayList<Food> objects) {
+    public FoodAdapter_update(@NonNull Context context, int resource, @NonNull ArrayList<Food_update> objects) {
         super(context, resource, objects);
         this.context = context;
         this.arrayList = objects;
@@ -38,7 +35,7 @@ public class FoodAdapter extends ArrayAdapter{
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        Food food = arrayList.get(position);
+        Food_update food = arrayList.get(position);
         if(convertView == null){
             convertView = LayoutInflater.from(context).inflate(layout,null);
         }
@@ -55,8 +52,8 @@ public class FoodAdapter extends ArrayAdapter{
         btnorther.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Main_menufood Main_menufood = (Main_menufood) context;
-                Main_menufood.changeIntent(food.getId().toString());
+                Main_menufood_update Main_menufood_update = (Main_menufood_update) context;
+                Main_menufood_update.changeIntent(food.getId().toString());
             }
         });
         return convertView;
@@ -80,42 +77,4 @@ public class FoodAdapter extends ArrayAdapter{
             }
         });
     }
-
-    @Override
-    public Filter getFilter() {
-        return new Filter() {
-            @Override
-            protected FilterResults performFiltering(CharSequence constraint) {
-                FilterResults filterResults = new FilterResults();
-                ArrayList<Food> filteredData = new ArrayList<>();
-
-                if (originalData == null) {
-                    originalData = new ArrayList<>(arrayList);
-                }
-
-                if (constraint == null || constraint.length() == 0) {
-                    filteredData.addAll(originalData);
-                } else {
-                    String filterPattern = constraint.toString().toLowerCase().trim();
-                    for (Food food : originalData) {
-                        if (food.getName().toLowerCase().contains(filterPattern)) {
-                            filteredData.add(food);
-                        }
-                    }
-                }
-
-                filterResults.values = filteredData;
-                filterResults.count = filteredData.size();
-                return filterResults;
-            }
-
-            @Override
-            protected void publishResults(CharSequence constraint, FilterResults results) {
-                arrayList.clear();
-                arrayList.addAll((ArrayList<Food>) results.values);
-                notifyDataSetChanged();
-            }
-        };
-    }
-
 }

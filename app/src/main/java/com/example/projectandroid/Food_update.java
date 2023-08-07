@@ -1,13 +1,13 @@
 package com.example.projectandroid;
 
-public class Food {
+public class Food_update {
         String img;
         String name;
         String mota;
         String sale;
         String id;
 
-    public Food(String img, String name, String mota, String sale, String id) {
+    public Food_update(String img, String name, String mota, String sale, String id) {
         this.img = img;
         this.name = name;
         this.mota = mota;
