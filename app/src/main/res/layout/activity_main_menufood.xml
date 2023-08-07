@@ -24,12 +24,25 @@
 
         <TextView
             android:id="@+id/textView"
-            android:layout_width="fill_parent"
+            android:layout_width="wrap_content"
             android:layout_height="30dp"
             android:layout_marginLeft="20dp"
             android:gravity="left"
-            android:text="Các món ăn gần bạn"
+            android:text="Menu"
             android:textSize="20dp" />
+
+        <SearchView
+            android:id="@+id/svMenu"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:queryHint="Search item"
+            android:iconifiedByDefault="false"
+            android:layout_margin="8dp"
+            android:queryBackground="@android:color/white"
+            android:background="@android:color/transparent"
+            android:elevation="4dp"
+            android:padding="4dp"
+            android:textSize="16sp"/>
     </LinearLayout>
 
     <LinearLayout

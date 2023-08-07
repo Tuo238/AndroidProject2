@@ -97,6 +97,11 @@ public class MainActivity extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(), khuyenmaiActivity.class));
                     overridePendingTransition(0, 0);
                     return true;
+                } else if (itemId == R.id.test2) {
+                    startActivity(new Intent(getApplicationContext(), Main_paymet.class));
+                    overridePendingTransition(0, 0);
+                    return true;
+
                 }
                 return false;
             }
@@ -125,7 +130,7 @@ public class MainActivity extends AppCompatActivity {
         imgBtnUser.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent = new Intent(MainActivity.this, EditProfile.class);
+                Intent intent = new Intent(MainActivity.this, Profile.class);
                 startActivity(intent);
             }
         });

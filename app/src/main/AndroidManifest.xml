@@ -50,6 +50,15 @@
             android:name=".khuyenmaiActivity"
             android:exported="false" />
         <activity
+            android:name=".Main_paymet"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".ggmap"
+            android:exported="false" />
+        <activity
             android:name=".Test2"
             android:exported="false" />
         <activity

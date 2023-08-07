@@ -7,6 +7,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.ListView;
+import android.widget.SearchView;
 import android.widget.Spinner;
 
 import androidx.annotation.NonNull;
@@ -28,7 +29,10 @@ public class Main_menufood extends AppCompatActivity {
     Button btnorder;
     ListView list;
     Spinner spinner_danhmuc;
+
+    SearchView svMenu;
     FoodAdapter foodAdapter;
+    ArrayList<Food> filteredList;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
 
     @Override
@@ -36,7 +40,35 @@ public class Main_menufood extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main_menufood);
         initCategory();
+
+        filteredList = new ArrayList<>();
+        SearchView svMenu = findViewById(R.id.svMenu);
+        svMenu.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
+            @Override
+            public boolean onQueryTextSubmit(String query) {
+                return false;
+            }
+
+            @Override
+            public boolean onQueryTextChange(String newText) {
+                if (foodAdapter != null) {
+                    foodAdapter.getFilter().filter(newText);
+                }
+                return true;            }
+        });
     }
+
+//    private void filter(String searchText) {
+//        filteredList.clear();
+//        for (Food food : filteredList) {
+//            if (food.getName().toLowerCase().contains(searchText.toLowerCase())) {
+//                filteredList.add(food);
+//            }
+//        }
+//        // Update the ListView with the filtered list.
+//        foodAdapter = new FoodAdapter(Main_menufood.this, R.layout.layout_row, filteredList);
+//        list.setAdapter(foodAdapter);
+//    }
 
     public void changeActivity(String id,String path)
     {
