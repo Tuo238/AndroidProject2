@@ -49,16 +49,16 @@ public class khuyenmaiAdapter_update extends ArrayAdapter {
         imgBtnKM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                khuyenmaiActivity khuyenmaiActivity = (khuyenmaiActivity) context;
-                khuyenmaiActivity.changeIntent(km.getMaKhuyenMai());
+                khuyenmaiActivity_update khuyenmaiActivity_update = (khuyenmaiActivity_update) context;
+                khuyenmaiActivity_update.changeIntent(km.getMaKhuyenMai());
             }
         });
 
         btn_Nhap_1_KM.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                khuyenmaiActivity khuyenmaiActivity = (khuyenmaiActivity) context;
-                khuyenmaiActivity.changeIntent(km.getMaKhuyenMai());
+                khuyenmaiActivity_update khuyenmaiActivity_update = (khuyenmaiActivity_update) context;
+                khuyenmaiActivity_update.changeIntent(km.getMaKhuyenMai());
             }
         });
         return convertView;

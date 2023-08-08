@@ -56,6 +56,7 @@
 
 
             <ImageView
+                android:id="@+id/images"
                 android:layout_width="90dp"
                 android:layout_height="90dp"
                 android:src="@drawable/images"
@@ -74,6 +75,49 @@
                 android:background="#FF3A5C"
                 android:layout_marginTop="10dp"/>
         </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
+            <ImageView
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:src="@drawable/baseline_person_24" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="Email"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="25dp"
+                android:hint="Email"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18dp" />
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0.25dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginRight="15dp"
+            android:background="@android:color/darker_gray" />
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -87,20 +131,20 @@
                 android:layout_height="30dp"
                 android:src="@drawable/baseline_person_24"
                 />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="First Name"
-                android:textStyle="bold"
-                android:textSize="20dp"
                 android:layout_marginLeft="5dp"
+                android:text="Password"
                 android:textColor="@color/black"
-                />
+                android:textSize="20dp"
+                android:textStyle="bold" />
             <TextView
                 android:id="@+id/Fname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="First Name"
+                android:hint="Mật khẩu: Đã ẩn vì lý do bảo mật"
                 android:layout_marginLeft="25dp"
                 android:textSize="18dp"
                 android:textColor="@android:color/darker_gray"/>
@@ -113,76 +157,41 @@
             android:layout_marginTop="10dp"
             android:layout_marginLeft="15dp"
             android:layout_marginRight="15dp"/>
+
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="horizontal"
-            android:paddingLeft="15dp"
-            android:layout_marginRight="15dp"
+            android:layout_gravity="center_vertical"
             android:layout_marginTop="20dp"
-            android:layout_gravity="center_vertical">
+            android:layout_marginRight="15dp"
+            android:orientation="horizontal"
+            android:paddingLeft="15dp">
+
             <ImageView
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                android:src="@drawable/baseline_person_24"
-                />
+                android:src="@drawable/baseline_person_24" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Last Name"
-                android:textStyle="bold"
-                android:textSize="20dp"
                 android:layout_marginLeft="5dp"
+                android:text="Last Name"
                 android:textColor="@color/black"
-                />
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
             <TextView
                 android:id="@+id/Lname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="last Name"
                 android:layout_marginLeft="25dp"
-                android:textSize="18dp"
-                android:textColor="@android:color/darker_gray"/>
+                android:hint="last Name"
+                android:textColor="@android:color/darker_gray"
+                android:textSize="18dp" />
 
         </LinearLayout>
-        <View
-            android:layout_width="wrap_content"
-            android:layout_height="0.25dp"
-            android:background="@android:color/darker_gray"
-            android:layout_marginTop="10dp"
-            android:layout_marginLeft="15dp"
-            android:layout_marginRight="15dp"/>        <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:paddingLeft="15dp"
-        android:layout_marginRight="15dp"
-        android:layout_marginTop="20dp"
-        android:layout_gravity="center_vertical">
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:src="@drawable/baseline_person_24"
-            />
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            android:textStyle="bold"
-            android:textSize="20dp"
-            android:layout_marginLeft="5dp"
-            android:textColor="@color/black"
-            />
-        <TextView
-            android:id="@+id/Email"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Email"
-            android:layout_marginLeft="25dp"
-            android:textSize="18dp"
-            android:textColor="@android:color/darker_gray"/>
 
-    </LinearLayout>
         <View
             android:layout_width="wrap_content"
             android:layout_height="0.25dp"
@@ -210,19 +219,19 @@
                 android:layout_marginLeft="-10dp"
 
                 />
-            <TextView
-                android:layout_width="240dp"
-                android:layout_height="50dp"
-                android:text="Change Password"
-                android:gravity="center"
-                android:textColor="#FF3A5C"
-                android:textSize="18dp"
-                android:drawableLeft="@drawable/baseline_lock_24"
-                android:paddingLeft="10dp"
-                android:layout_marginLeft="-10dp"
-                android:layout_marginTop="15dp"
+            <!--            <TextView-->
+            <!--                android:layout_width="240dp"-->
+            <!--                android:layout_height="50dp"-->
+            <!--                android:text="Change Password"-->
+            <!--                android:gravity="center"-->
+            <!--                android:textColor="#FF3A5C"-->
+            <!--                android:textSize="18dp"-->
+            <!--                android:drawableLeft="@drawable/baseline_lock_24"-->
+            <!--                android:paddingLeft="10dp"-->
+            <!--                android:layout_marginLeft="-10dp"-->
+            <!--                android:layout_marginTop="15dp"-->
 
-                />
+            <!--                />-->
 
 
         </LinearLayout>
@@ -231,3 +240,6 @@
 
 
 </RelativeLayout>
+
+
+

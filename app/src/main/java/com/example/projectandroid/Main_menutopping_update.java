@@ -113,7 +113,7 @@ public class Main_menutopping_update extends AppCompatActivity {
                     }
                     op.write(newData.getBytes());
                     op.close();
-                    Intent changeIntent = new Intent(Main_menutopping_update.this,Main_menufood.class);
+                    Intent changeIntent = new Intent(Main_menutopping_update.this,MainActivity.class);
                     startActivity(changeIntent);
                 } catch (FileNotFoundException e) {
                     throw new RuntimeException(e);

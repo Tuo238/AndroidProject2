@@ -63,7 +63,7 @@
             android:name="com.example.projectandroid.GiaoHang"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.NhapKM"
+            android:name="com.example.projectandroid.NhapKM_update"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.Main_menutopping"
@@ -75,6 +75,27 @@
             android:name="com.example.projectandroid.khuyenmaiActivity"
             android:exported="false" />
         <activity
+            android:name="com.example.projectandroid.Main_paymet"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.Main_menufood_update"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.Main_paymet_update"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.khuyenmaiActivity_update"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.Main_menutopping_update"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.Profile"
+            android:exported="false" />
+        <activity
+            android:name="com.example.projectandroid.ggmap"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectandroid.Test2"
             android:exported="false" />
         <activity
@@ -83,9 +104,6 @@
         <activity
             android:name="com.example.projectandroid.EditProfile"
             android:exported="true" />
-        <activity
-            android:name="com.example.projectandroid.Profile"
-            android:exported="false" />
         <activity
             android:name="com.example.projectandroid.Signup"
             android:exported="false" />

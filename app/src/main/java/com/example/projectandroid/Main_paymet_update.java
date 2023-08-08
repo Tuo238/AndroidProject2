@@ -32,6 +32,10 @@ import com.google.firebase.firestore.FirebaseFirestore;
 import com.google.firebase.firestore.Query;
 import com.google.firebase.firestore.QuerySnapshot;
 
+import java.io.FileNotFoundException;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.OutputStream;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -40,13 +44,13 @@ import java.util.Map;
 public class Main_paymet_update extends AppCompatActivity {
     Button btnchangesaddress;
     ListView list;
-    item_foodAdapter foodAdapter;
+    item_foodAdapter_update foodAdapter;
     ImageButton btn_paymethod;
     ImageView imgPayment;
     TextView result, tvkq, tvGiaTien, tvGiaShip, tvGiaKhac, tvTongThanhToan;
     FirebaseFirestore db = FirebaseFirestore.getInstance();
     private String myData;
-    final ArrayList<item_food> arrayList = new ArrayList<>();
+    final ArrayList<item_food_update> arrayList = new ArrayList<>();
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -104,7 +108,7 @@ public class Main_paymet_update extends AppCompatActivity {
                 int totalPrice = Integer.parseInt(tvTongtien.getText().toString());
                 for(int i=0;i<list.getCount();i++)
                 {
-                    item_food itemfood = (item_food) list.getItemAtPosition(i);
+                    item_food_update itemfood = (item_food_update) list.getItemAtPosition(i);
                     lstnamefood.add(itemfood.getName_food());
                 }
                 // ghi lên database
@@ -117,6 +121,17 @@ public class Main_paymet_update extends AppCompatActivity {
                             @Override
                             public void onSuccess(DocumentReference documentReference) {
                                 Toast.makeText(Main_paymet_update.this, "dat mon thanh cong", Toast.LENGTH_SHORT).show();
+                                try {
+                                    OutputStream op=openFileOutput("dataCart.txt",MODE_PRIVATE);
+                                    op.write("".getBytes());
+                                    op.close();
+                                } catch (FileNotFoundException e) {
+                                    throw new RuntimeException(e);
+                                } catch (IOException e) {
+                                    throw new RuntimeException(e);
+                                }
+                                Intent changeIntent = new Intent(Main_paymet_update.this,MainActivity.class);
+                                startActivity(changeIntent);
                             }
                         })
                         .addOnFailureListener(new OnFailureListener() {
@@ -129,23 +144,69 @@ public class Main_paymet_update extends AppCompatActivity {
         });
     }
 
+//    public void loadData()
+//    {
+//        CollectionReference usersRef = db.collection("/Category/MilkTea/lstMilkTea");
+//        Query query = usersRef;
+//        query.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
+//            @Override
+//            public void onComplete(@NonNull Task<QuerySnapshot> task) {
+//                if (task.isSuccessful()) {
+//                    int giatien = 0;
+//                    List<DocumentSnapshot> documents = task.getResult().getDocuments();
+//                    for (DocumentSnapshot document : documents) {
+//                        arrayList.add(new item_food(Math.toIntExact(document.getLong("price")),document.get("name").toString(),document.getString("img")));
+//                        giatien = giatien + Math.toIntExact(document.getLong("price"));
+//                    }
+//                    tvGiaTien.setText(String.valueOf(giatien));
+//                    tvTongThanhToan.setText(String.valueOf(giatien+16000+3000));
+//                    foodAdapter = new item_foodAdapter(Main_paymet_update.this, R.layout.layout_item_drink, arrayList);
+//                    list.setAdapter(foodAdapter);
+//                } else {
+//                    // Xử lý lỗi
+//                }
+//            }
+//        });
+//    }
+
     public void loadData()
     {
-        CollectionReference usersRef = db.collection("/Category/MilkTea/lstMilkTea");
+        CollectionReference usersRef = db.collection("/menu");
         Query query = usersRef;
         query.get().addOnCompleteListener(new OnCompleteListener<QuerySnapshot>() {
             @Override
             public void onComplete(@NonNull Task<QuerySnapshot> task) {
                 if (task.isSuccessful()) {
+                    ArrayList<String> lstIDFood = new ArrayList<>();
+                    try {
+                        InputStream in=openFileInput("dataCart.txt");
+                        int size=in.available();
+                        byte[]buffer=new byte[size];
+                        in.read(buffer);
+                        in.close();
+                        String[] st = new String(buffer).split("\n");
+                        for(int i=0;i<st.length;i++)
+                        {
+                            String idFood = st[i].split("-")[0];
+                            lstIDFood.add(idFood);
+                        }
+                    } catch (FileNotFoundException e) {
+                        throw new RuntimeException(e);
+                    } catch (IOException e) {
+                        throw new RuntimeException(e);
+                    }
                     int giatien = 0;
                     List<DocumentSnapshot> documents = task.getResult().getDocuments();
                     for (DocumentSnapshot document : documents) {
-                        arrayList.add(new item_food(Math.toIntExact(document.getLong("price")),document.get("name").toString(),document.getString("img")));
-                        giatien = giatien + Math.toIntExact(document.getLong("price"));
+                        if(lstIDFood.contains(document.getId()))
+                        {
+                            arrayList.add(new item_food_update(Math.toIntExact(document.getLong("price")),document.get("name").toString(),document.getString("img")));
+                            giatien = giatien + Math.toIntExact(document.getLong("price"));
+                        }
                     }
                     tvGiaTien.setText(String.valueOf(giatien));
                     tvTongThanhToan.setText(String.valueOf(giatien+16000+3000));
-                    foodAdapter = new item_foodAdapter(Main_paymet_update.this, R.layout.layout_item_drink, arrayList);
+                    foodAdapter = new item_foodAdapter_update(Main_paymet_update.this, R.layout.layout_item_drink, arrayList);
                     list.setAdapter(foodAdapter);
                 } else {
                     // Xử lý lỗi

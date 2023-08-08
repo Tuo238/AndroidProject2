@@ -23,11 +23,11 @@ import java.util.ArrayList;
 
 public class item_foodAdapter_update extends ArrayAdapter {
     Context context;
-    ArrayList<item_food> arrayList;
+    ArrayList<item_food_update> arrayList;
     int layout;
 
 
-    public item_foodAdapter_update(@NonNull Context context, int resource, @NonNull ArrayList<item_food> objects) {
+    public item_foodAdapter_update(@NonNull Context context, int resource, @NonNull ArrayList<item_food_update> objects) {
         super(context, resource, objects);
         this.context = context;
         this.arrayList = objects;
@@ -37,7 +37,7 @@ public class item_foodAdapter_update extends ArrayAdapter {
     @NonNull
     @Override
     public View getView(int position, @Nullable View convertView, @NonNull ViewGroup parent) {
-        item_food itemFood = arrayList.get(position);
+        item_food_update itemFood = arrayList.get(position);
         if(convertView == null){
             convertView = LayoutInflater.from(context).inflate(layout,null);
         }
@@ -60,7 +60,7 @@ public class item_foodAdapter_update extends ArrayAdapter {
                     tv_soluong.setText(String.valueOf(newValue));
                     int newPrice = itemFood.getMoney()*Integer.parseInt(tv_soluong.getText().toString());
                     tv_money.setText(String.valueOf(newPrice));
-                    Main_paymet main_paymet = (Main_paymet) context;
+                    Main_paymet_update main_paymet = (Main_paymet_update) context;
                     main_paymet.loadPayment(itemFood.getMoney(),1);
                 }
             }
@@ -74,7 +74,7 @@ public class item_foodAdapter_update extends ArrayAdapter {
                     tv_soluong.setText(String.valueOf(newValue));
                     int newPrice = itemFood.getMoney()*Integer.parseInt(tv_soluong.getText().toString());
                     tv_money.setText(String.valueOf(newPrice));
-                    Main_paymet main_paymet = (Main_paymet) context;
+                    Main_paymet_update main_paymet = (Main_paymet_update) context;
                     main_paymet.loadPayment(itemFood.getMoney(),0);
                 }
             }
