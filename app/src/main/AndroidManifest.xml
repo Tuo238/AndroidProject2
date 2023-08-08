@@ -38,7 +38,7 @@
             android:name=".GiaoHang"
             android:exported="false" />
         <activity
-            android:name=".NhapKM"
+            android:name=".NhapKM_update"
             android:exported="false" />
         <activity
             android:name=".Main_menutopping"
