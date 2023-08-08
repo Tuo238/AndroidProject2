@@ -90,7 +90,7 @@ public class Main_menufood extends AppCompatActivity {
                     ArrayList<Food> arrayList = new ArrayList<>();
                     List<DocumentSnapshot> documents = task.getResult().getDocuments();
                     for (DocumentSnapshot document : documents) {
-                        arrayList.add(new Food(document.getId(),document.get("img").toString(),document.get("name").toString(),document.get("mota").toString(),document.get("price").toString(),"/Category/"+param1+"/"+param2));
+                        arrayList.add(new Food(document.get("img").toString(),document.get("name").toString(),document.get("mota").toString(),document.get("price").toString(),"/Category/"+param1+"/"+param2));
                     }
 
                     list = findViewById(R.id.lstFood);

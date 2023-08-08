@@ -188,7 +188,7 @@
             android:layout_marginLeft="270dp"
             android:scaleType="fitCenter"
             android:background="#00CC00"
-            app:srcCompat="@drawable/cartword" />
+            app:srcCompat="@drawable/cart" />
 
 
     </com.google.android.material.bottomnavigation.BottomNavigationView>

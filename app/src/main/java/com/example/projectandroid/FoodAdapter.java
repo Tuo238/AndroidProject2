@@ -56,7 +56,7 @@ public class FoodAdapter extends ArrayAdapter{
             @Override
             public void onClick(View v) {
                 Main_menufood Main_menufood = (Main_menufood) context;
-                Main_menufood.changeIntent(food.getId().toString());
+                Main_menufood.changeActivity(food.getId().toString(),"");
             }
         });
         return convertView;

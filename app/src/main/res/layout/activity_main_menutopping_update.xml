@@ -60,8 +60,8 @@
                 android:layout_width="70dp"
                 android:layout_height="60dp"
                 android:background="#FFF"
-                android:scaleType="center"
-                app:srcCompat="@drawable/tang" />
+                android:scaleType="fitCenter"
+                app:srcCompat="@drawable/plus" />
 
             <TextView
                 android:id="@+id/tv_soluong"
@@ -81,7 +81,7 @@
 
                 android:scaleType="fitCenter"
                 android:layout_weight="0.5"
-                app:srcCompat="@drawable/giamm" />
+                app:srcCompat="@drawable/img" />
 
 
         </LinearLayout>

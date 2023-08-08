@@ -53,6 +53,19 @@
             android:name=".Main_paymet"
             android:exported="false" />
         <activity
+            android:name=".Main_menufood_update"
+            android:exported="false" />
+        <activity
+            android:name=".Main_paymet_update"
+            android:exported="false" />
+        <activity
+            android:name=".khuyenmaiActivity_update"
+            android:exported="false" />
+        <activity
+            android:name=".Main_menutopping_update"
+            android:exported="false" />
+
+        <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
@@ -67,9 +80,6 @@
         <activity
             android:name=".EditProfile"
             android:exported="true" />
-        <activity
-            android:name=".Profile"
-            android:exported="false" />
         <activity
             android:name=".Signup"
             android:exported="false" />

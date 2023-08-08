@@ -87,18 +87,18 @@ public class MainActivity extends AppCompatActivity {
             public boolean onNavigationItemSelected(@NonNull MenuItem item) {
                 int itemId = item.getItemId();
                 if (itemId == R.id.menu) {
-                    startActivity(new Intent(getApplicationContext(), Main_menufood.class));
+                    startActivity(new Intent(getApplicationContext(), Main_menufood_update.class));
                     overridePendingTransition(0, 0);
                     return true;
                 } else if (itemId == R.id.home) {
                     // Your code for handling the "test" item selected
                     return true;
                 } else if (itemId == R.id.promotion) {
-                    startActivity(new Intent(getApplicationContext(), khuyenmaiActivity.class));
+                    startActivity(new Intent(getApplicationContext(), khuyenmaiActivity_update.class));
                     overridePendingTransition(0, 0);
                     return true;
                 } else if (itemId == R.id.test2) {
-                    startActivity(new Intent(getApplicationContext(), Main_paymet.class));
+                    startActivity(new Intent(getApplicationContext(), Main_paymet_update.class));
                     overridePendingTransition(0, 0);
                     return true;
 

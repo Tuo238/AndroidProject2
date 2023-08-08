@@ -68,7 +68,7 @@ BottomNavigationView bottomNavigationView;
                         }
                     }
                     list = findViewById(R.id.lstFood);
-                    foodAdapter = new FoodAdapter_update(Main_menufood_update.this, R.layout.layout_row, arrayList);
+                    foodAdapter = new FoodAdapter_update(Main_menufood_update.this, R.layout.layout_row_update, arrayList);
                     list.setAdapter(foodAdapter);
                 } else {
                     // Xử lý lỗi
