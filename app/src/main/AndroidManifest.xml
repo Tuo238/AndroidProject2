@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools">
-<!--    phân quyền nhé-->
-    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
-    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
-    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE "/>
-    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
-?<!--Phần này chắc login của Trọng -->
+    <!-- phân quyền nhé -->
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Phần này chắc login của Trọng -->
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission
         android:name="android.permission.CAMERA"
-
-        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" />
-<!--    googlemap nhé-->
+        tools:ignore="PermissionImpliesUnsupportedChromeOsHardware" /> <!-- googlemap nhé -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -31,6 +28,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProjectAndroid"
         tools:targetApi="31">
+        <activity
+            android:name=".OrderHistory"
+            android:exported="false" />
         <activity
             android:name=".Main_phanquyen"
             android:exported="false" />
@@ -64,12 +64,11 @@
         <activity
             android:name=".Main_menutopping_update"
             android:exported="false" />
-
         <activity
             android:name=".Profile"
             android:exported="false" />
         <activity
-            android:name=".ggmap"
+            android:name=".ggmap_update"
             android:exported="false" />
         <activity
             android:name=".Test2"

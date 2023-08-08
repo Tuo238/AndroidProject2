@@ -33,7 +33,7 @@ BottomNavigationView bottomNavigationView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main_menufood);
+        setContentView(R.layout.activity_main_menufood_update);
 //        setContentView(R.layout.activity_nav_giohang);
 //        BottomNavigationView bottomNavigationView = findViewById(R.id.nav_giohang);
 //
@@ -98,6 +98,12 @@ BottomNavigationView bottomNavigationView;
 
             }
         });
+
+        Intent intent = getIntent();
+        String categoryname = intent.getStringExtra("category");
+        int selectedPosition = data.indexOf(categoryname);
+        spinner_danhmuc.setSelection(selectedPosition);
+
     }
 
     public void initCategory(){

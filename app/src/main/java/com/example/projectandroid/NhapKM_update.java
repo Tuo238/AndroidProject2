@@ -13,7 +13,7 @@ public class NhapKM_update extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nhap_km);
+        setContentView(R.layout.activity_nhap_km_update);
         Intent intent = getIntent();
         EditText edtText = findViewById(R.id.editTextText);
         edtText.setText(intent.getStringExtra("maKM"));

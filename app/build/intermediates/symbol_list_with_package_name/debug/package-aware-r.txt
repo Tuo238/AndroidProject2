@@ -2624,6 +2624,9 @@ drawable notification_template_icon_bg
 drawable notification_template_icon_low_bg
 drawable notification_tile_bg
 drawable notify_panel_notification_icon_bg
+drawable pic1
+drawable pic2
+drawable pic3
 drawable placeholder
 drawable plus
 drawable round
@@ -2912,7 +2915,6 @@ id ignore
 id ignoreRequest
 id image
 id imageButton
-id imageButton3
 id imageFood
 id imageView
 id imageView2
@@ -2927,6 +2929,7 @@ id img_btn_paymenthod
 id img_momo
 id img_paymenthod_money
 id img_shipper
+id imgbtnOrder
 id immediateStop
 id included
 id info
@@ -2956,6 +2959,7 @@ id login_button
 id login_email
 id login_password
 id lstFood
+id lvOrderHistory
 id lv_khuyenmai
 id lv_topping
 id map
@@ -3213,6 +3217,8 @@ id tvCategory
 id tvGiaKhac
 id tvGiaShip
 id tvGiaTien
+id tvOrderItem
+id tvOrderPrice
 id tvTongtien
 id tvUserName
 id tv_address_giaohang
@@ -3365,6 +3371,7 @@ layout activity_main_phanquyen
 layout activity_nav_giohang_update
 layout activity_nhap_km
 layout activity_nhap_km_update
+layout activity_order_history
 layout activity_profile
 layout activity_signup
 layout activity_test
@@ -3450,6 +3457,7 @@ layout notification_template_custom_big
 layout notification_template_icon_group
 layout notification_template_part_chronometer
 layout notification_template_part_time
+layout order_history_layout
 layout pager_row
 layout select_dialog_item_material
 layout select_dialog_multichoice_material

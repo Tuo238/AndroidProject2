@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
     ArrayList<MainGridviewClass> mainGridviewClassArrayList;
     FirebaseFirestore db;
     TextView tvUserName;
-    ImageButton imgBtnUser;
+    ImageButton imgBtnUser, imgbtnOrder;
 
     //Navigation
     BottomNavigationView bottom_navigation;
@@ -52,9 +52,9 @@ public class MainActivity extends AppCompatActivity {
         ImageSlider imgSlider = findViewById(R.id.imgSlider);
         ArrayList<SlideModel> slideModels = new ArrayList<>();
 
-        slideModels.add(new SlideModel(R.drawable.american_food, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.chinese_food, ScaleTypes.FIT));
-        slideModels.add(new SlideModel(R.drawable.thai_food, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.pic1, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.pic2, ScaleTypes.FIT));
+        slideModels.add(new SlideModel(R.drawable.pic3, ScaleTypes.FIT));
 
         imgSlider.setImageList(slideModels, ScaleTypes.FIT);
         //=========Xử lý GridView=======
@@ -63,6 +63,7 @@ public class MainActivity extends AppCompatActivity {
         tvUserName =(TextView)findViewById(R.id.tvUserName);
         gvMain = findViewById(R.id.gvMain);
         imgBtnUser = findViewById(R.id.imgBtnUser);
+        imgbtnOrder = findViewById(R.id.imgbtnOrder);
         mainGridviewClassArrayList = new ArrayList<>();
 
         // initializing our variable for firebase
@@ -89,18 +90,18 @@ public class MainActivity extends AppCompatActivity {
                 if (itemId == R.id.menu) {
                     startActivity(new Intent(getApplicationContext(), Main_menufood_update.class));
                     overridePendingTransition(0, 0);
-                    return true;
+//                    return true;
                 } else if (itemId == R.id.home) {
                     // Your code for handling the "test" item selected
                     return true;
                 } else if (itemId == R.id.promotion) {
                     startActivity(new Intent(getApplicationContext(), khuyenmaiActivity_update.class));
                     overridePendingTransition(0, 0);
-                    return true;
+//                    return true;
                 } else if (itemId == R.id.test2) {
                     startActivity(new Intent(getApplicationContext(), Main_paymet_update.class));
                     overridePendingTransition(0, 0);
-                    return true;
+//                    return true;
 
                 }
                 return false;
@@ -135,6 +136,15 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+//        imgbtnOrder.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(MainActivity.this, OrderHistory.class);
+//                startActivity(intent);
+//            }
+//        });
+
+
     }
 
     public void addEvent(){
@@ -143,7 +153,7 @@ public class MainActivity extends AppCompatActivity {
 
     private void openMainActivity(MainGridviewClass clickedItem) {
         // Create a new Intent to open the MainActivity
-        Intent intent = new Intent(MainActivity.this, Main_menufood.class);
+        Intent intent = new Intent(MainActivity.this, Main_menufood_update.class);
 
         // Use putExtra() method to pass data to the new activity
         // "countryName" is the key to identify the country name in the MainActivity

@@ -1,9 +1,9 @@
-#Tue Aug 08 19:39:29 ICT 2023
-base.0=C\:\\Users\\KHOA\\OneDrive\\Desktop\\khoaGit\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes.dex
-base.1=C\:\\Users\\KHOA\\OneDrive\\Desktop\\khoaGit\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\0\\classes.dex
-base.2=C\:\\Users\\KHOA\\OneDrive\\Desktop\\khoaGit\\app\\build\\intermediates\\dex\\debug\\mergeProjectDexDebug\\3\\classes.dex
-base.3=C\:\\Users\\KHOA\\OneDrive\\Desktop\\khoaGit\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes2.dex
-base.4=C\:\\Users\\KHOA\\OneDrive\\Desktop\\khoaGit\\app\\build\\intermediates\\dex\\debug\\mergeExtDexDebug\\classes3.dex
+#Tue Aug 08 22:57:33 ICT 2023
+base.0=/Users/tuobui/Documents/AndroidPJ10/app/build/intermediates/dex/debug/mergeExtDexDebug/classes.dex
+base.1=/Users/tuobui/Documents/AndroidPJ10/app/build/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex
+base.2=/Users/tuobui/Documents/AndroidPJ10/app/build/intermediates/dex/debug/mergeProjectDexDebug/3/classes.dex
+base.3=/Users/tuobui/Documents/AndroidPJ10/app/build/intermediates/dex/debug/mergeExtDexDebug/classes2.dex
+base.4=/Users/tuobui/Documents/AndroidPJ10/app/build/intermediates/dex/debug/mergeExtDexDebug/classes3.dex
 path.0=classes.dex
 path.1=0/classes.dex
 path.2=3/classes.dex

@@ -88,15 +88,15 @@ Button btnchangeaddress;
 
     public void addControls(){
 //        fab = (FloatingActionButton) findViewById(R.id.fab);
-
-        btnchangeaddress = findViewById(R.id.btn_change_address);
-        btnchangeaddress.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                Intent intent = new Intent(ggmap_update.this, ggmap_update.class);
-                startActivity(intent);
-            }
-        });
+//
+//        btnchangeaddress = findViewById(R.id.btn_change_address);
+//        btnchangeaddress.setOnClickListener(new View.OnClickListener() {
+//            @Override
+//            public void onClick(View v) {
+//                Intent intent = new Intent(ggmap_update.this, ggmap_update.class);
+//                startActivity(intent);
+//            }
+//        });
     }
 
     private void checkMyPermission() {

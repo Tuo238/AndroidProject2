@@ -11,12 +11,9 @@
     <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
     <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
-    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-?
-    <!-- Phần này chắc login của Trọng -->
+    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Phần này chắc login của Trọng -->
     <uses-permission android:name="android.permission.INTERNET" />
-    <uses-permission android:name="android.permission.CAMERA" />
-    <!-- googlemap nhé -->
+    <uses-permission android:name="android.permission.CAMERA" /> <!-- googlemap nhé -->
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.INTERNET" />
@@ -57,6 +54,9 @@
         android:testOnly="true"
         android:theme="@style/Theme.ProjectAndroid" >
         <activity
+            android:name="com.example.projectandroid.OrderHistory"
+            android:exported="false" />
+        <activity
             android:name="com.example.projectandroid.Main_phanquyen"
             android:exported="false" />
         <activity
@@ -93,7 +93,7 @@
             android:name="com.example.projectandroid.Profile"
             android:exported="false" />
         <activity
-            android:name="com.example.projectandroid.ggmap"
+            android:name="com.example.projectandroid.ggmap_update"
             android:exported="false" />
         <activity
             android:name="com.example.projectandroid.Test2"

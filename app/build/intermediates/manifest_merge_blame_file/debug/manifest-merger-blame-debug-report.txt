@@ -6,494 +6,497 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="24"
-8-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml
+8-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="33" />
-9-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml
+9-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml
 10    <!-- phân quyền nhé -->
 11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-11-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:5:5-80
-11-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:5:22-78
+11-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:5:5-81
+11-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:5:22-78
 12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-12-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:6:5-78
-12-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:6:22-76
+12-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:6:5-79
+12-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:6:22-76
 13    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE " />
-13-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:7:5-80
-13-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:7:22-78
-14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-14-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:8:5-70
-14-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:8:22-68
-15?
-16    <!-- Phần này chắc login của Trọng -->
-17    <uses-permission android:name="android.permission.INTERNET" />
-17-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:10:5-67
-17-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:10:22-64
-18    <uses-permission android:name="android.permission.CAMERA" />
-18-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:11:5-14:71
-18-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:12:9-49
-19    <!-- googlemap nhé -->
-20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-20-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:16:5-80
-20-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:16:22-77
-21    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-21-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:17:5-81
-21-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:17:22-78
-22    <uses-permission android:name="android.permission.INTERNET" />
-22-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:10:5-67
-22-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:10:22-64
-23    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-23-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:19:5-79
-23-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:19:22-76
-24    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-24-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:6:5-78
-24-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:6:22-76
-25
-26    <uses-feature
-26-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\5e8d8f427d02092d25eb9e778f19b817\transformed\play-services-maps-18.1.0\AndroidManifest.xml:26:5-28:35
-27        android:glEsVersion="0x00020000"
-27-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\5e8d8f427d02092d25eb9e778f19b817\transformed\play-services-maps-18.1.0\AndroidManifest.xml:27:9-41
-28        android:required="true" />
-28-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\5e8d8f427d02092d25eb9e778f19b817\transformed\play-services-maps-18.1.0\AndroidManifest.xml:28:9-32
-29
-30    <queries>
-30-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\5e8d8f427d02092d25eb9e778f19b817\transformed\play-services-maps-18.1.0\AndroidManifest.xml:30:5-34:15
-31
-32        <!-- Needs to be explicitly declared on Android R+ -->
-33        <package android:name="com.google.android.apps.maps" />
-33-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\5e8d8f427d02092d25eb9e778f19b817\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:9-64
-33-->[com.google.android.gms:play-services-maps:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\5e8d8f427d02092d25eb9e778f19b817\transformed\play-services-maps-18.1.0\AndroidManifest.xml:33:18-61
-34    </queries>
-35
-36    <uses-permission android:name="android.permission.WAKE_LOCK" />
-36-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:5-68
-36-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:24:22-65
-37    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
-37-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:5-79
-37-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:25:22-76
-38    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
-38-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:5-110
-38-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:26:22-107
-39
-40    <permission
-40-->[androidx.core:core:1.9.0] C:\Users\KHOA\.gradle\caches\transforms-3\95b65b6274b8644876ef83feb6f099dd\transformed\core-1.9.0\AndroidManifest.xml:22:5-24:47
-41        android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-41-->[androidx.core:core:1.9.0] C:\Users\KHOA\.gradle\caches\transforms-3\95b65b6274b8644876ef83feb6f099dd\transformed\core-1.9.0\AndroidManifest.xml:23:9-81
-42        android:protectionLevel="signature" />
-42-->[androidx.core:core:1.9.0] C:\Users\KHOA\.gradle\caches\transforms-3\95b65b6274b8644876ef83feb6f099dd\transformed\core-1.9.0\AndroidManifest.xml:24:9-44
-43
-44    <uses-permission android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-44-->[androidx.core:core:1.9.0] C:\Users\KHOA\.gradle\caches\transforms-3\95b65b6274b8644876ef83feb6f099dd\transformed\core-1.9.0\AndroidManifest.xml:26:5-97
-44-->[androidx.core:core:1.9.0] C:\Users\KHOA\.gradle\caches\transforms-3\95b65b6274b8644876ef83feb6f099dd\transformed\core-1.9.0\AndroidManifest.xml:26:22-94
-45
-46    <application
-46-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:24:5-116:19
-47        android:allowBackup="true"
-47-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:25:9-35
-48        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-48-->[androidx.core:core:1.9.0] C:\Users\KHOA\.gradle\caches\transforms-3\95b65b6274b8644876ef83feb6f099dd\transformed\core-1.9.0\AndroidManifest.xml:28:18-86
-49        android:dataExtractionRules="@xml/data_extraction_rules"
-49-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:26:9-65
-50        android:debuggable="true"
-51        android:extractNativeLibs="false"
-52        android:fullBackupContent="@xml/backup_rules"
-52-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:27:9-54
-53        android:icon="@mipmap/ic_launcher"
-53-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:28:9-43
-54        android:label="@string/app_name"
-54-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:29:9-41
-55        android:roundIcon="@mipmap/ic_launcher_round"
-55-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:30:9-54
-56        android:supportsRtl="true"
-56-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:31:9-35
-57        android:testOnly="true"
-58        android:theme="@style/Theme.ProjectAndroid" >
-58-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:32:9-52
+13-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:7:5-81
+13-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:7:22-78
+14    <uses-permission android:name="android.permission.RECORD_AUDIO" /> <!-- Phần này chắc login của Trọng -->
+14-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:8:5-71
+14-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:8:22-68
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:9:5-67
+15-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:9:22-64
+16    <uses-permission android:name="android.permission.CAMERA" /> <!-- googlemap nhé -->
+16-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:10:5-12:71
+16-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:11:9-49
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:13:5-80
+17-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:13:22-77
+18    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+18-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:14:5-81
+18-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:14:22-78
+19    <uses-permission android:name="android.permission.INTERNET" />
+19-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:9:5-67
+19-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:9:22-64
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:16:5-79
+20-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:16:22-76
+21    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+21-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:6:5-79
+21-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:6:22-76
+22
+23    <uses-feature
+23-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:26:5-28:35
+24        android:glEsVersion="0x00020000"
+24-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:27:9-41
+25        android:required="true" />
+25-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:28:9-32
+26
+27    <queries>
+27-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:30:5-34:15
+28
+29        <!-- Needs to be explicitly declared on Android R+ -->
+30        <package android:name="com.google.android.apps.maps" />
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:9-64
+30-->[com.google.android.gms:play-services-maps:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/5e8d8f427d02092d25eb9e778f19b817/transformed/play-services-maps-18.1.0/AndroidManifest.xml:33:18-61
+31    </queries>
+32
+33    <uses-permission android:name="android.permission.WAKE_LOCK" />
+33-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:24:5-68
+33-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:24:22-65
+34    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+34-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:25:5-79
+34-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:25:22-76
+35    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+35-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:26:5-110
+35-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:26:22-107
+36
+37    <permission
+37-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+38        android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+38-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+39        android:protectionLevel="signature" />
+39-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+40
+41    <uses-permission android:name="com.example.projectandroid.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+41-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+41-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+42
+43    <application
+43-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:21:5-115:19
+44        android:allowBackup="true"
+44-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:22:9-35
+45        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+45-->[androidx.core:core:1.9.0] /Users/tuobui/.gradle/caches/transforms-3/95b65b6274b8644876ef83feb6f099dd/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+46        android:dataExtractionRules="@xml/data_extraction_rules"
+46-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:23:9-65
+47        android:debuggable="true"
+48        android:extractNativeLibs="false"
+49        android:fullBackupContent="@xml/backup_rules"
+49-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:24:9-54
+50        android:icon="@mipmap/ic_launcher"
+50-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:25:9-43
+51        android:label="@string/app_name"
+51-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:26:9-41
+52        android:roundIcon="@mipmap/ic_launcher_round"
+52-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:27:9-54
+53        android:supportsRtl="true"
+53-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:28:9-35
+54        android:testOnly="true"
+55        android:theme="@style/Theme.ProjectAndroid" >
+55-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:29:9-52
+56        <activity
+56-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:31:9-33:40
+57            android:name="com.example.projectandroid.OrderHistory"
+57-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:32:13-41
+58            android:exported="false" />
+58-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:33:13-37
 59        <activity
-59-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:34:9-36:40
+59-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:34:9-36:40
 60            android:name="com.example.projectandroid.Main_phanquyen"
-60-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:35:13-43
+60-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:35:13-43
 61            android:exported="false" />
-61-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:36:13-37
+61-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:36:13-37
 62        <activity
-62-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:37:9-39:40
+62-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:37:9-39:40
 63            android:name="com.example.projectandroid.GiaoHang"
-63-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:38:13-37
+63-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:38:13-37
 64            android:exported="false" />
-64-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:39:13-37
+64-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:39:13-37
 65        <activity
-65-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:40:9-42:40
+65-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:40:9-42:40
 66            android:name="com.example.projectandroid.NhapKM_update"
-66-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:41:13-42
+66-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:41:13-42
 67            android:exported="false" />
-67-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:42:13-37
+67-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:42:13-37
 68        <activity
-68-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:43:9-45:40
+68-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:43:9-45:40
 69            android:name="com.example.projectandroid.Main_menutopping"
-69-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:44:13-45
+69-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:44:13-45
 70            android:exported="false" />
-70-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:45:13-37
+70-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:45:13-37
 71        <activity
-71-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:46:9-48:40
+71-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:46:9-48:40
 72            android:name="com.example.projectandroid.Main_menufood"
-72-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:47:13-42
+72-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:47:13-42
 73            android:exported="false" />
-73-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:48:13-37
+73-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:48:13-37
 74        <activity
-74-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:49:9-51:40
+74-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:49:9-51:40
 75            android:name="com.example.projectandroid.khuyenmaiActivity"
-75-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:50:13-46
+75-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:50:13-46
 76            android:exported="false" />
-76-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:51:13-37
+76-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:51:13-37
 77        <activity
-77-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:52:9-54:40
+77-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:52:9-54:40
 78            android:name="com.example.projectandroid.Main_paymet"
-78-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:53:13-40
+78-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:53:13-40
 79            android:exported="false" />
-79-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:54:13-37
+79-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:54:13-37
 80        <activity
-80-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:55:9-57:40
+80-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:55:9-57:40
 81            android:name="com.example.projectandroid.Main_menufood_update"
-81-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:56:13-49
+81-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:56:13-49
 82            android:exported="false" />
-82-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:57:13-37
+82-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:57:13-37
 83        <activity
-83-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:58:9-60:40
+83-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:58:9-60:40
 84            android:name="com.example.projectandroid.Main_paymet_update"
-84-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:59:13-47
+84-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:59:13-47
 85            android:exported="false" />
-85-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:60:13-37
+85-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:60:13-37
 86        <activity
-86-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:61:9-63:40
+86-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:61:9-63:40
 87            android:name="com.example.projectandroid.khuyenmaiActivity_update"
-87-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:62:13-53
+87-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:62:13-53
 88            android:exported="false" />
-88-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:63:13-37
+88-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:63:13-37
 89        <activity
-89-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:64:9-66:40
+89-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:64:9-66:40
 90            android:name="com.example.projectandroid.Main_menutopping_update"
-90-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:65:13-52
+90-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:65:13-52
 91            android:exported="false" />
-91-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:66:13-37
+91-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:66:13-37
 92        <activity
-92-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:68:9-70:40
+92-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:67:9-69:40
 93            android:name="com.example.projectandroid.Profile"
-93-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:69:13-36
+93-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:68:13-36
 94            android:exported="false" />
-94-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:70:13-37
+94-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:69:13-37
 95        <activity
-95-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:71:9-73:40
-96            android:name="com.example.projectandroid.ggmap"
-96-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:72:13-34
+95-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:70:9-72:40
+96            android:name="com.example.projectandroid.ggmap_update"
+96-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:71:13-41
 97            android:exported="false" />
-97-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:73:13-37
+97-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:72:13-37
 98        <activity
-98-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:74:9-76:40
+98-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:73:9-75:40
 99            android:name="com.example.projectandroid.Test2"
-99-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:75:13-34
+99-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:74:13-34
 100            android:exported="false" />
-100-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:76:13-37
+100-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:75:13-37
 101        <activity
-101-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:77:9-79:40
+101-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:76:9-78:40
 102            android:name="com.example.projectandroid.TestActivity"
-102-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:78:13-41
+102-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:77:13-41
 103            android:exported="false" />
-103-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:79:13-37
+103-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:78:13-37
 104        <activity
-104-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:80:9-82:39
+104-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:79:9-81:39
 105            android:name="com.example.projectandroid.EditProfile"
-105-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:81:13-40
+105-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:80:13-40
 106            android:exported="true" />
-106-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:82:13-36
+106-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:81:13-36
 107        <activity
-107-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:83:9-85:40
+107-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:82:9-84:40
 108            android:name="com.example.projectandroid.Signup"
-108-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:84:13-35
+108-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:83:13-35
 109            android:exported="false" />
-109-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:85:13-37
+109-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:84:13-37
 110        <activity
-110-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:86:9-88:40
+110-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:85:9-87:40
 111            android:name="com.example.projectandroid.MainActivity"
-111-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:87:13-41
+111-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:86:13-41
 112            android:exported="false" />
-112-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:88:13-37
+112-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:87:13-37
 113        <activity
-113-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:89:9-91:40
+113-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:88:9-90:40
 114            android:name="com.example.projectandroid.ForgotPasswordActivity"
-114-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:90:13-51
+114-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:89:13-51
 115            android:exported="false" />
-115-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:91:13-37
+115-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:90:13-37
 116        <activity
-116-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:92:9-100:20
+116-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:91:9-99:20
 117            android:name="com.example.projectandroid.Login"
-117-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:93:13-34
+117-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:92:13-34
 118            android:exported="true" >
-118-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:94:13-36
+118-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:93:13-36
 119            <intent-filter>
-119-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:95:13-99:29
+119-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:94:13-98:29
 120                <action android:name="android.intent.action.MAIN" />
-120-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:96:17-69
-120-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:96:25-66
+120-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:95:17-69
+120-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:95:25-66
 121
 122                <category android:name="android.intent.category.LAUNCHER" />
-122-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:98:17-77
-122-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:98:27-74
+122-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:97:17-77
+122-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:97:27-74
 123            </intent-filter>
 124        </activity>
 125        <activity
-125-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:101:9-103:40
+125-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:100:9-102:40
 126            android:name="com.example.projectandroid.Firebase"
-126-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:102:13-37
+126-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:101:13-37
 127            android:exported="false" />
-127-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:103:13-37
+127-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:102:13-37
 128
 129        <meta-data
-129-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:105:9-107:69
+129-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:104:9-106:69
 130            android:name="com.google.android.gms.version"
-130-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:106:13-58
+130-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:105:13-58
 131            android:value="@integer/google_play_services_version" />
-131-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:107:13-66
+131-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:106:13-66
 132
 133        <uses-library
-133-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:109:9-111:40
+133-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:108:9-110:40
 134            android:name="org.apache.http.legacy"
-134-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:110:13-50
+134-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:109:13-50
 135            android:required="false" />
-135-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:111:13-37
+135-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:110:13-37
 136
 137        <meta-data
-137-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:113:9-115:71
+137-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:112:9-114:71
 138            android:name="com.google.android.geo.API_KEY"
-138-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:114:13-58
+138-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:113:13-58
 139            android:value="AIzaSyAkV3itUcxfTfGGbheMK2wlIfEq8ICyMmI" />
-139-->C:\Users\KHOA\OneDrive\Desktop\khoaGit\app\src\main\AndroidManifest.xml:115:13-68
+139-->/Users/tuobui/Documents/AndroidPJ10/app/src/main/AndroidManifest.xml:114:13-68
 140
 141        <activity
-141-->[com.karumi:dexter:6.2.2] C:\Users\KHOA\.gradle\caches\transforms-3\96a5910712a41e9706fdcd4ac108a9be\transformed\dexter-6.2.2\AndroidManifest.xml:27:9-29:72
+141-->[com.karumi:dexter:6.2.2] /Users/tuobui/.gradle/caches/transforms-3/96a5910712a41e9706fdcd4ac108a9be/transformed/dexter-6.2.2/AndroidManifest.xml:27:9-29:72
 142            android:name="com.karumi.dexter.DexterActivity"
-142-->[com.karumi:dexter:6.2.2] C:\Users\KHOA\.gradle\caches\transforms-3\96a5910712a41e9706fdcd4ac108a9be\transformed\dexter-6.2.2\AndroidManifest.xml:28:13-60
+142-->[com.karumi:dexter:6.2.2] /Users/tuobui/.gradle/caches/transforms-3/96a5910712a41e9706fdcd4ac108a9be/transformed/dexter-6.2.2/AndroidManifest.xml:28:13-60
 143            android:theme="@style/Dexter.Internal.Theme.Transparent" />
-143-->[com.karumi:dexter:6.2.2] C:\Users\KHOA\.gradle\caches\transforms-3\96a5910712a41e9706fdcd4ac108a9be\transformed\dexter-6.2.2\AndroidManifest.xml:29:13-69
+143-->[com.karumi:dexter:6.2.2] /Users/tuobui/.gradle/caches/transforms-3/96a5910712a41e9706fdcd4ac108a9be/transformed/dexter-6.2.2/AndroidManifest.xml:29:13-69
 144
 145        <service
-145-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\KHOA\.gradle\caches\transforms-3\1ec4cbb2c878fa0fe8e9e0d1eaa0eca9\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:16:9-22:19
+145-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
 146            android:name="com.google.firebase.components.ComponentDiscoveryService"
-146-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\KHOA\.gradle\caches\transforms-3\1ec4cbb2c878fa0fe8e9e0d1eaa0eca9\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:17:13-84
+146-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:17:13-84
 147            android:directBootAware="true"
-147-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:34:13-43
+147-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:34:13-43
 148            android:exported="false" >
-148-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\KHOA\.gradle\caches\transforms-3\1ec4cbb2c878fa0fe8e9e0d1eaa0eca9\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:18:13-37
+148-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:18:13-37
 149            <meta-data
-149-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\KHOA\.gradle\caches\transforms-3\1ec4cbb2c878fa0fe8e9e0d1eaa0eca9\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:19:13-21:85
+149-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:19:13-21:85
 150                android:name="com.google.firebase.components:com.google.firebase.firestore.FirestoreRegistrar"
-150-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\KHOA\.gradle\caches\transforms-3\1ec4cbb2c878fa0fe8e9e0d1eaa0eca9\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:20:17-111
+150-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:20:17-111
 151                android:value="com.google.firebase.components.ComponentRegistrar" />
-151-->[com.google.firebase:firebase-firestore:24.7.0] C:\Users\KHOA\.gradle\caches\transforms-3\1ec4cbb2c878fa0fe8e9e0d1eaa0eca9\transformed\firebase-firestore-24.7.0\AndroidManifest.xml:21:17-82
+151-->[com.google.firebase:firebase-firestore:24.7.0] /Users/tuobui/.gradle/caches/transforms-3/1ec4cbb2c878fa0fe8e9e0d1eaa0eca9/transformed/firebase-firestore-24.7.0/AndroidManifest.xml:21:17-82
 152            <meta-data
-152-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\KHOA\.gradle\caches\transforms-3\e57775142a7b432348a3a688c94db46c\transformed\firebase-storage-20.2.1\AndroidManifest.xml:32:13-34:85
+152-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:32:13-34:85
 153                android:name="com.google.firebase.components:com.google.firebase.storage.StorageRegistrar"
-153-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\KHOA\.gradle\caches\transforms-3\e57775142a7b432348a3a688c94db46c\transformed\firebase-storage-20.2.1\AndroidManifest.xml:33:17-107
+153-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:33:17-107
 154                android:value="com.google.firebase.components.ComponentRegistrar" />
-154-->[com.google.firebase:firebase-storage:20.2.1] C:\Users\KHOA\.gradle\caches\transforms-3\e57775142a7b432348a3a688c94db46c\transformed\firebase-storage-20.2.1\AndroidManifest.xml:34:17-82
+154-->[com.google.firebase:firebase-storage:20.2.1] /Users/tuobui/.gradle/caches/transforms-3/e57775142a7b432348a3a688c94db46c/transformed/firebase-storage-20.2.1/AndroidManifest.xml:34:17-82
 155            <meta-data
-155-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:69:13-71:85
+155-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
 156                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
-156-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:70:17-109
+156-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:70:17-109
 157                android:value="com.google.firebase.components.ComponentRegistrar" />
-157-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:71:17-82
+157-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:71:17-82
 158            <meta-data
-158-->[com.google.firebase:firebase-database:20.2.2] C:\Users\KHOA\.gradle\caches\transforms-3\13766202b619e018e4d1a94e6440d01c\transformed\firebase-database-20.2.2\AndroidManifest.xml:31:13-33:85
+158-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:31:13-33:85
 159                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
-159-->[com.google.firebase:firebase-database:20.2.2] C:\Users\KHOA\.gradle\caches\transforms-3\13766202b619e018e4d1a94e6440d01c\transformed\firebase-database-20.2.2\AndroidManifest.xml:32:17-109
+159-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:32:17-109
 160                android:value="com.google.firebase.components.ComponentRegistrar" />
-160-->[com.google.firebase:firebase-database:20.2.2] C:\Users\KHOA\.gradle\caches\transforms-3\13766202b619e018e4d1a94e6440d01c\transformed\firebase-database-20.2.2\AndroidManifest.xml:33:17-82
+160-->[com.google.firebase:firebase-database:20.2.2] /Users/tuobui/.gradle/caches/transforms-3/13766202b619e018e4d1a94e6440d01c/transformed/firebase-database-20.2.2/AndroidManifest.xml:33:17-82
 161            <meta-data
-161-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:31:13-33:85
+161-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:31:13-33:85
 162                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
-162-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:32:17-139
+162-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:32:17-139
 163                android:value="com.google.firebase.components.ComponentRegistrar" />
-163-->[com.google.android.gms:play-services-measurement-api:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\186a387f8eaabe0af3c52cf9269646a9\transformed\play-services-measurement-api-21.3.0\AndroidManifest.xml:33:17-82
+163-->[com.google.android.gms:play-services-measurement-api:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/186a387f8eaabe0af3c52cf9269646a9/transformed/play-services-measurement-api-21.3.0/AndroidManifest.xml:33:17-82
 164            <meta-data
-164-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\KHOA\.gradle\caches\transforms-3\aafd2e6e0f4196cb37d02671873a9b63\transformed\firebase-installations-17.1.3\AndroidManifest.xml:17:13-19:85
+164-->[com.google.firebase:firebase-installations:17.1.3] /Users/tuobui/.gradle/caches/transforms-3/aafd2e6e0f4196cb37d02671873a9b63/transformed/firebase-installations-17.1.3/AndroidManifest.xml:17:13-19:85
 165                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
-165-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\KHOA\.gradle\caches\transforms-3\aafd2e6e0f4196cb37d02671873a9b63\transformed\firebase-installations-17.1.3\AndroidManifest.xml:18:17-127
+165-->[com.google.firebase:firebase-installations:17.1.3] /Users/tuobui/.gradle/caches/transforms-3/aafd2e6e0f4196cb37d02671873a9b63/transformed/firebase-installations-17.1.3/AndroidManifest.xml:18:17-127
 166                android:value="com.google.firebase.components.ComponentRegistrar" />
-166-->[com.google.firebase:firebase-installations:17.1.3] C:\Users\KHOA\.gradle\caches\transforms-3\aafd2e6e0f4196cb37d02671873a9b63\transformed\firebase-installations-17.1.3\AndroidManifest.xml:19:17-82
+166-->[com.google.firebase:firebase-installations:17.1.3] /Users/tuobui/.gradle/caches/transforms-3/aafd2e6e0f4196cb37d02671873a9b63/transformed/firebase-installations-17.1.3/AndroidManifest.xml:19:17-82
 167        </service>
 168
 169        <provider
-169-->[com.squareup.picasso:picasso:2.71828] C:\Users\KHOA\.gradle\caches\transforms-3\cf72310086e8d58469a36c04a3b4640e\transformed\picasso-2.71828\AndroidManifest.xml:8:9-11:40
+169-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:8:9-11:40
 170            android:name="com.squareup.picasso.PicassoProvider"
-170-->[com.squareup.picasso:picasso:2.71828] C:\Users\KHOA\.gradle\caches\transforms-3\cf72310086e8d58469a36c04a3b4640e\transformed\picasso-2.71828\AndroidManifest.xml:9:13-64
+170-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:9:13-64
 171            android:authorities="com.example.projectandroid.com.squareup.picasso"
-171-->[com.squareup.picasso:picasso:2.71828] C:\Users\KHOA\.gradle\caches\transforms-3\cf72310086e8d58469a36c04a3b4640e\transformed\picasso-2.71828\AndroidManifest.xml:10:13-72
+171-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:10:13-72
 172            android:exported="false" />
-172-->[com.squareup.picasso:picasso:2.71828] C:\Users\KHOA\.gradle\caches\transforms-3\cf72310086e8d58469a36c04a3b4640e\transformed\picasso-2.71828\AndroidManifest.xml:11:13-37
+172-->[com.squareup.picasso:picasso:2.71828] /Users/tuobui/.gradle/caches/transforms-3/cf72310086e8d58469a36c04a3b4640e/transformed/picasso-2.71828/AndroidManifest.xml:11:13-37
 173
 174        <activity
-174-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:29:9-46:20
+174-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:29:9-46:20
 175            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
-175-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:30:13-80
+175-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:30:13-80
 176            android:excludeFromRecents="true"
-176-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:31:13-46
+176-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:31:13-46
 177            android:exported="true"
-177-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:32:13-36
+177-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:32:13-36
 178            android:launchMode="singleTask"
-178-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:33:13-44
+178-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:33:13-44
 179            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-179-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:34:13-72
+179-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:34:13-72
 180            <intent-filter>
-180-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:35:13-45:29
+180-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:35:13-45:29
 181                <action android:name="android.intent.action.VIEW" />
-181-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
-181-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
+181-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+181-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
 182
 183                <category android:name="android.intent.category.DEFAULT" />
-183-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
-183-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
+183-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+183-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
 184                <category android:name="android.intent.category.BROWSABLE" />
-184-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
-184-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
+184-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+184-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
 185
 186                <data
-186-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
+186-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
 187                    android:host="firebase.auth"
-187-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
+187-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
 188                    android:path="/"
-188-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
+188-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
 189                    android:scheme="genericidp" />
-189-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
+189-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
 190            </intent-filter>
 191        </activity>
 192        <activity
-192-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:47:9-64:20
+192-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:47:9-64:20
 193            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
-193-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:48:13-79
+193-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:48:13-79
 194            android:excludeFromRecents="true"
-194-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:49:13-46
+194-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:49:13-46
 195            android:exported="true"
-195-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:50:13-36
+195-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:50:13-36
 196            android:launchMode="singleTask"
-196-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:51:13-44
+196-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:51:13-44
 197            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
-197-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:52:13-72
+197-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:52:13-72
 198            <intent-filter>
-198-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:53:13-63:29
+198-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:53:13-63:29
 199                <action android:name="android.intent.action.VIEW" />
-199-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:36:17-69
-199-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:36:25-66
+199-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:17-69
+199-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:36:25-66
 200
 201                <category android:name="android.intent.category.DEFAULT" />
-201-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:38:17-76
-201-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:38:27-73
+201-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:17-76
+201-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:38:27-73
 202                <category android:name="android.intent.category.BROWSABLE" />
-202-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:39:17-78
-202-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:39:27-75
+202-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:17-78
+202-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:39:27-75
 203
 204                <data
-204-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:41:17-44:51
+204-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:41:17-44:51
 205                    android:host="firebase.auth"
-205-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:42:21-49
+205-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:42:21-49
 206                    android:path="/"
-206-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:43:21-37
+206-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:43:21-37
 207                    android:scheme="recaptcha" />
-207-->[com.google.firebase:firebase-auth:22.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\c85931fdb55d777d7c8425ae3bdc49aa\transformed\firebase-auth-22.1.0\AndroidManifest.xml:44:21-48
+207-->[com.google.firebase:firebase-auth:22.1.0] /Users/tuobui/.gradle/caches/transforms-3/c85931fdb55d777d7c8425ae3bdc49aa/transformed/firebase-auth-22.1.0/AndroidManifest.xml:44:21-48
 208            </intent-filter>
 209        </activity>
 210        <activity
-210-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:23:9-27:75
+210-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
 211            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-211-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:24:13-93
+211-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:24:13-93
 212            android:excludeFromRecents="true"
-212-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:25:13-46
+212-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:25:13-46
 213            android:exported="false"
-213-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:26:13-37
+213-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:26:13-37
 214            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-214-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:27:13-72
+214-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:27:13-72
 215        <!--
 216            Service handling Google Sign-In user revocation. For apps that do not integrate with
 217            Google Sign-In, this service will never be started.
 218        -->
 219        <service
-219-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:33:9-37:51
+219-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:33:9-37:51
 220            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-220-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:34:13-89
+220-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:34:13-89
 221            android:exported="true"
-221-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:35:13-36
+221-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:35:13-36
 222            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
-222-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:36:13-107
+222-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:36:13-107
 223            android:visibleToInstantApps="true" />
-223-->[com.google.android.gms:play-services-auth:20.6.0] C:\Users\KHOA\.gradle\caches\transforms-3\b460faef6a07848da150fa45bcb81eba\transformed\play-services-auth-20.6.0\AndroidManifest.xml:37:13-48
+223-->[com.google.android.gms:play-services-auth:20.6.0] /Users/tuobui/.gradle/caches/transforms-3/b460faef6a07848da150fa45bcb81eba/transformed/play-services-auth-20.6.0/AndroidManifest.xml:37:13-48
 224
 225        <provider
-225-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:25:9-30:39
+225-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:25:9-30:39
 226            android:name="com.google.firebase.provider.FirebaseInitProvider"
-226-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:26:13-77
+226-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:26:13-77
 227            android:authorities="com.example.projectandroid.firebaseinitprovider"
-227-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:27:13-72
+227-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:27:13-72
 228            android:directBootAware="true"
-228-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:28:13-43
+228-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:28:13-43
 229            android:exported="false"
-229-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:29:13-37
+229-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:29:13-37
 230            android:initOrder="100" />
-230-->[com.google.firebase:firebase-common:20.3.3] C:\Users\KHOA\.gradle\caches\transforms-3\5c1312c6c1b3950473af594da5a962c1\transformed\firebase-common-20.3.3\AndroidManifest.xml:30:13-36
+230-->[com.google.firebase:firebase-common:20.3.3] /Users/tuobui/.gradle/caches/transforms-3/5c1312c6c1b3950473af594da5a962c1/transformed/firebase-common-20.3.3/AndroidManifest.xml:30:13-36
 231
 232        <receiver
-232-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:29:9-33:20
+232-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:29:9-33:20
 233            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
-233-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:30:13-85
+233-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:30:13-85
 234            android:enabled="true"
-234-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:31:13-35
+234-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:31:13-35
 235            android:exported="false" >
-235-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:32:13-37
+235-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:32:13-37
 236        </receiver>
 237
 238        <service
-238-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:35:9-38:40
+238-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:35:9-38:40
 239            android:name="com.google.android.gms.measurement.AppMeasurementService"
-239-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:36:13-84
+239-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:36:13-84
 240            android:enabled="true"
-240-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:37:13-35
+240-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:37:13-35
 241            android:exported="false" />
-241-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:38:13-37
+241-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:38:13-37
 242        <service
-242-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:39:9-43:72
+242-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:39:9-43:72
 243            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
-243-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:40:13-87
+243-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:40:13-87
 244            android:enabled="true"
-244-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:41:13-35
+244-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:41:13-35
 245            android:exported="false"
-245-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:42:13-37
+245-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:42:13-37
 246            android:permission="android.permission.BIND_JOB_SERVICE" />
-246-->[com.google.android.gms:play-services-measurement:21.3.0] C:\Users\KHOA\.gradle\caches\transforms-3\d7e70a522192263308e0df13821a13c1\transformed\play-services-measurement-21.3.0\AndroidManifest.xml:43:13-69
+246-->[com.google.android.gms:play-services-measurement:21.3.0] /Users/tuobui/.gradle/caches/transforms-3/d7e70a522192263308e0df13821a13c1/transformed/play-services-measurement-21.3.0/AndroidManifest.xml:43:13-69
 247
 248        <activity
-248-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\d28a875b12c6d531d07d80760eb01e58\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:9-22:45
+248-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:9-22:45
 249            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-249-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\d28a875b12c6d531d07d80760eb01e58\transformed\play-services-base-18.1.0\AndroidManifest.xml:20:19-85
+249-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:20:19-85
 250            android:exported="false"
-250-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\d28a875b12c6d531d07d80760eb01e58\transformed\play-services-base-18.1.0\AndroidManifest.xml:22:19-43
+250-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:22:19-43
 251            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-251-->[com.google.android.gms:play-services-base:18.1.0] C:\Users\KHOA\.gradle\caches\transforms-3\d28a875b12c6d531d07d80760eb01e58\transformed\play-services-base-18.1.0\AndroidManifest.xml:21:19-78
+251-->[com.google.android.gms:play-services-base:18.1.0] /Users/tuobui/.gradle/caches/transforms-3/d28a875b12c6d531d07d80760eb01e58/transformed/play-services-base-18.1.0/AndroidManifest.xml:21:19-78
 252
 253        <provider
-253-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+253-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
 254            android:name="androidx.startup.InitializationProvider"
-254-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:25:13-67
+254-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:25:13-67
 255            android:authorities="com.example.projectandroid.androidx-startup"
-255-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:26:13-68
+255-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:26:13-68
 256            android:exported="false" >
-256-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:27:13-37
+256-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:27:13-37
 257            <meta-data
-257-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+257-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
 258                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-258-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:30:17-75
+258-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:30:17-75
 259                android:value="androidx.startup" />
-259-->[androidx.emoji2:emoji2:1.2.0] C:\Users\KHOA\.gradle\caches\transforms-3\07605d7cb7c966e4c7d74a471b43cf00\transformed\emoji2-1.2.0\AndroidManifest.xml:31:17-49
+259-->[androidx.emoji2:emoji2:1.2.0] /Users/tuobui/.gradle/caches/transforms-3/07605d7cb7c966e4c7d74a471b43cf00/transformed/emoji2-1.2.0/AndroidManifest.xml:31:17-49
 260            <meta-data
-260-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\KHOA\.gradle\caches\transforms-3\8e74d2dcc162b35b0f71b07f40098527\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+260-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
 261                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-261-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\KHOA\.gradle\caches\transforms-3\8e74d2dcc162b35b0f71b07f40098527\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+261-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
 262                android:value="androidx.startup" />
-262-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\KHOA\.gradle\caches\transforms-3\8e74d2dcc162b35b0f71b07f40098527\transformed\lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+262-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/tuobui/.gradle/caches/transforms-3/8e74d2dcc162b35b0f71b07f40098527/transformed/lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
 263        </provider>
 264    </application>
 265

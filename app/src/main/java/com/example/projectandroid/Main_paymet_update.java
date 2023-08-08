@@ -95,7 +95,7 @@ public class Main_paymet_update extends AppCompatActivity {
         btnchangesaddress.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent myintent = new Intent(Main_paymet_update.this, ggmap.class );
+                Intent myintent = new Intent(Main_paymet_update.this, ggmap_update.class );
                 startActivity(myintent);
             }
         });

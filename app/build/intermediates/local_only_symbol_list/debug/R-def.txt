@@ -42,6 +42,9 @@ drawable mexican_food
 drawable momo
 drawable money_paymenthod2
 drawable nen
+drawable pic1
+drawable pic2
+drawable pic3
 drawable plus
 drawable round
 drawable round_corner
@@ -101,7 +104,6 @@ id googleAuth
 id gvMain
 id home
 id imageButton
-id imageButton3
 id imageFood
 id imageView
 id imageView2
@@ -115,6 +117,7 @@ id img_btn_paymenthod
 id img_momo
 id img_paymenthod_money
 id img_shipper
+id imgbtnOrder
 id layout_background_menthod
 id layout_food
 id layout_payment_momo
@@ -123,6 +126,7 @@ id login_button
 id login_email
 id login_password
 id lstFood
+id lvOrderHistory
 id lv_khuyenmai
 id lv_topping
 id map
@@ -161,6 +165,8 @@ id tvCategory
 id tvGiaKhac
 id tvGiaShip
 id tvGiaTien
+id tvOrderItem
+id tvOrderPrice
 id tvTongtien
 id tvUserName
 id tv_address_giaohang
@@ -202,6 +208,7 @@ layout activity_main_phanquyen
 layout activity_nav_giohang_update
 layout activity_nhap_km
 layout activity_nhap_km_update
+layout activity_order_history
 layout activity_profile
 layout activity_signup
 layout activity_test
@@ -216,6 +223,7 @@ layout layout_paymethod
 layout layout_row
 layout layout_row_update
 layout main_category_layout
+layout order_history_layout
 menu menu_navigation
 mipmap ic_launcher
 mipmap ic_launcher_round

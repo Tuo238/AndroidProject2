@@ -2623,6 +2623,9 @@ int drawable notification_template_icon_bg 0x7f0700d0
 int drawable notification_template_icon_low_bg 0x7f0700d1
 int drawable notification_tile_bg 0x7f0700d2
 int drawable notify_panel_notification_icon_bg 0x7f0700d3
+int drawable pic1 0x7f0700e9
+int drawable pic2 0x7f0700ea
+int drawable pic3 0x7f0700eb
 int drawable placeholder 0x7f0700d4
 int drawable plus 0x7f0700d5
 int drawable round 0x7f0700d6
@@ -2911,7 +2914,6 @@ int id ignore 0x7f090106
 int id ignoreRequest 0x7f090107
 int id image 0x7f090108
 int id imageButton 0x7f090109
-int id imageButton3 0x7f09010a
 int id imageFood 0x7f09010b
 int id imageView 0x7f09010c
 int id imageView2 0x7f09010d
@@ -2926,6 +2928,7 @@ int id img_btn_paymenthod 0x7f090115
 int id img_momo 0x7f090116
 int id img_paymenthod_money 0x7f090117
 int id img_shipper 0x7f090118
+int id imgbtnOrder 0x7f090267
 int id immediateStop 0x7f090119
 int id included 0x7f09011a
 int id info 0x7f09011b
@@ -2955,6 +2958,7 @@ int id login_button 0x7f090132
 int id login_email 0x7f090133
 int id login_password 0x7f090134
 int id lstFood 0x7f090135
+int id lvOrderHistory 0x7f09026b
 int id lv_khuyenmai 0x7f090136
 int id lv_topping 0x7f090137
 int id map 0x7f090138
@@ -3212,6 +3216,8 @@ int id tvCategory 0x7f090233
 int id tvGiaKhac 0x7f090234
 int id tvGiaShip 0x7f090235
 int id tvGiaTien 0x7f090236
+int id tvOrderItem 0x7f090269
+int id tvOrderPrice 0x7f09026a
 int id tvTongtien 0x7f090237
 int id tvUserName 0x7f090238
 int id tv_address_giaohang 0x7f090239
@@ -3364,6 +3370,7 @@ int layout activity_main_phanquyen 0x7f0c002a
 int layout activity_nav_giohang_update 0x7f0c002b
 int layout activity_nhap_km 0x7f0c002c
 int layout activity_nhap_km_update 0x7f0c002d
+int layout activity_order_history 0x7f0c0097
 int layout activity_profile 0x7f0c002e
 int layout activity_signup 0x7f0c002f
 int layout activity_test 0x7f0c0030
@@ -3449,6 +3456,7 @@ int layout notification_template_custom_big 0x7f0c007f
 int layout notification_template_icon_group 0x7f0c0080
 int layout notification_template_part_chronometer 0x7f0c0081
 int layout notification_template_part_time 0x7f0c0082
+int layout order_history_layout 0x7f0c0098
 int layout pager_row 0x7f0c0083
 int layout select_dialog_item_material 0x7f0c0084
 int layout select_dialog_multichoice_material 0x7f0c0085
